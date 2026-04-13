@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orario del giorno</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+:root {
+  --bg:     #f0ede6;
+  --paper:  #faf9f6;
+  --ink:    #1c1a16;
+  --muted:  #8a8478;
+  --border: #dbd8d0;
+  --accent: #b83a20;
+  --acc-bg: #f7ece8;
+  --y1:     #dceeff; --y1b: #6da4d8;
+  --y2:     #d9f2e3; --y2b: #5ab882;
+  --y3:     #fff4d0; --y3b: #d4aa30;
+  --y4:     #fde0f3; --y4b: #c060a0;
+  --gol:    #ece6ff; --golb: #8060c8;
+}
+
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: var(--bg); color: var(--ink);
+  display: flex; flex-direction: column; height: 100vh; overflow: hidden;
+}
+
+/* ── HEADER ── */
+header {
+  flex: 0 0 52px; background: var(--ink);
+  display: flex; align-items: center; padding: 0 16px; gap: 12px; justify-content: space-between;
+}
+.brand { display: flex; align-items: center; gap: 9px; }
+.brand-tag {
+  font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: .15em;
+  text-transform: uppercase; background: var(--accent); color: #fff; padding: 3px 7px; border-radius: 3px;
+}
+.brand-title { font-size: 15px; font-weight: 500; color: #f0ede6; letter-spacing: -.01em; }
+.hdr-right { display: flex; align-items: center; gap: 8px; }
+#hdr-date {
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px;
+  color: rgba(240,237,230,.42); letter-spacing: .06em;
+}
+.ghost-btn {
+  font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: .1em;
+  text-transform: uppercase; border: 1px solid rgba(240,237,230,.22); border-radius: 4px;
+  padding: 5px 10px; background: transparent; color: rgba(240,237,230,.6);
+  cursor: pointer; transition: all .15s; white-space: nowrap;
+}
+.ghost-btn:hover { border-color: var(--accent); color: #f0ede6; }
+
+/* ── DESKTOP CONTROLS BAR ── */
+#controls {
+  flex: 0 0 48px; background: var(--paper); border-bottom: 1px solid var(--border);
+  display: none; align-items: center; padding: 0 14px; gap: 8px; overflow-x: auto;
+}
+.ctrl-sep { width: 1px; height: 22px; background: var(--border); flex-shrink: 0; margin: 0 2px; }
+.lbl {
+  font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--muted); white-space: nowrap; flex-shrink: 0;
+}
+select, input[type=text] {
+  font-family: 'IBM Plex Sans', sans-serif; font-size: 12.5px;
+  border: 1px solid var(--border); border-radius: 5px; padding: 5px 9px;
+  background: var(--bg); color: var(--ink); outline: none; transition: border-color .15s; flex-shrink: 0;
+}
+select { min-width: 145px; }
+input[type=text] { width: 125px; }
+select:focus, input[type=text]:focus { border-color: var(--accent); }
+.reset-btn {
+  font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: .1em;
+  text-transform: uppercase; border: 1px solid var(--border); border-radius: 5px;
+  padding: 5px 10px; background: transparent; cursor: pointer; color: var(--muted);
+  transition: all .15s; flex-shrink: 0;
+}
+.reset-btn:hover { border-color: var(--accent); color: var(--accent); }
+#count-badge {
+  font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--muted);
+  margin-left: auto; flex-shrink: 0; white-space: nowrap;
+}
+
+/* ── MOBILE FILTER BAR ── */
+#mob-bar {
+  display: none;
+  flex: 0 0 44px; background: var(--paper); border-bottom: 1px solid var(--border);
+  align-items: center; padding: 0 12px; gap: 8px; justify-content: space-between;
+}
+#mob-bar.on { display: flex; }
+.mob-filter-btn {
+  display: flex; align-items: center; gap: 6px;
+  font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: .08em;
+  text-transform: uppercase; border: 1px solid var(--border); border-radius: 5px;
+  padding: 6px 12px; background: transparent; cursor: pointer; color: var(--muted);
+  transition: all .15s;
+}
+.mob-filter-btn.active { border-color: var(--accent); color: var(--accent); background: var(--acc-bg); }
+.mob-filter-btn svg { flex-shrink: 0; }
+#mob-count {
+  font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--muted);
+}
+#mob-date {
+  font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--muted);
+}
+
+/* ── MOBILE FILTER DRAWER ── */
+#filter-drawer {
+  display: none; position: fixed; inset: 0; z-index: 200;
+}
+#filter-drawer.open { display: block; }
+.drawer-overlay {
+  position: absolute; inset: 0; background: rgba(28,26,22,.45);
+}
+.drawer-panel {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  background: var(--paper); border-radius: 16px 16px 0 0;
+  padding: 20px 20px 32px; display: flex; flex-direction: column; gap: 14px;
+  max-height: 80vh; overflow-y: auto;
+}
+.drawer-handle {
+  width: 36px; height: 4px; background: var(--border); border-radius: 2px;
+  margin: 0 auto 8px;
+}
+.drawer-title {
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 4px;
+}
+.drawer-field { display: flex; flex-direction: column; gap: 6px; }
+.drawer-field label {
+  font-size: 12px; font-weight: 500; color: var(--ink);
+}
+.drawer-field select,
+.drawer-field input[type=text] {
+  width: 100%; font-size: 16px; padding: 10px 12px; min-width: unset;
+  border-radius: 8px;
+}
+.drawer-actions { display: flex; gap: 10px; margin-top: 4px; }
+.drawer-reset {
+  flex: 1; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: .08em;
+  text-transform: uppercase; border: 1px solid var(--border); border-radius: 8px;
+  padding: 12px; background: transparent; cursor: pointer; color: var(--muted);
+}
+.drawer-apply {
+  flex: 2; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: .08em;
+  text-transform: uppercase; border: none; border-radius: 8px;
+  padding: 12px; background: var(--ink); color: var(--bg); cursor: pointer;
+}
+
+/* ── MAIN ── */
+#main { flex: 1 1 0; overflow: hidden; display: flex; flex-direction: column; }
+
+/* ── STATE SCREEN ── */
+#state-screen {
+  flex: 1; display: flex; flex-direction: column; align-items: center;
+  justify-content: center; gap: 12px; text-align: center; padding: 32px;
+}
+#state-screen h2 { font-size: 16px; font-weight: 500; }
+#state-screen p { font-size: 13px; color: var(--muted); line-height: 1.6; max-width: 380px; }
+.spin {
+  width: 32px; height: 32px; border: 3px solid var(--border);
+  border-top-color: var(--accent); border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.upload-fallback {
+  margin-top: 20px; padding: 16px 22px; background: var(--paper);
+  border: 1px solid var(--border); border-radius: 8px; max-width: 340px; width: 100%;
+}
+.upload-fallback p { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+.upload-fallback label {
+  display: inline-block; font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+  letter-spacing: .08em; text-transform: uppercase; border: none; border-radius: 5px;
+  padding: 8px 16px; background: var(--accent); color: #fff; cursor: pointer;
+}
+#file-input { display: none; }
+
+/* ── TABLE VIEW (desktop) ── */
+#table-wrap { flex: 1; overflow: auto; display: none; }
+table { border-collapse: collapse; min-width: max-content; width: 100%; }
+thead th {
+  position: sticky; top: 0; z-index: 10; background: var(--bg);
+  font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: .08em;
+  text-transform: uppercase; font-weight: 500; color: var(--muted);
+  padding: 8px 7px 6px; text-align: left; border-bottom: 2px solid var(--border);
+  white-space: nowrap; min-width: 108px;
+}
+thead th.th-time { min-width: 58px; width: 58px; left: 0; z-index: 20; border-right: 2px solid var(--border); }
+.cn { font-size: 13px; font-weight: 600; color: var(--ink); display: block; margin-bottom: 1px; letter-spacing: 0; }
+tbody tr:nth-child(even) { background: rgba(0,0,0,.016); }
+tbody tr:hover { background: var(--acc-bg); }
+tbody tr.divrow td { height: 4px; background: var(--bg); border: none; padding: 0; }
+tbody tr.divrow td.dlabel {
+  font-family: 'IBM Plex Mono', monospace; font-size: 8px; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--muted); padding: 2px 8px 0; vertical-align: middle;
+}
+td { padding: 0; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); vertical-align: top; }
+td:last-child { border-right: none; }
+.td-time {
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--muted);
+  padding: 8px; background: var(--bg); border-right: 2px solid var(--border) !important;
+  white-space: nowrap; vertical-align: top; position: sticky; left: 0; z-index: 5;
+}
+.empty-cell { min-height: 18px; }
+
+/* ── LIST VIEW (mobile) ── */
+#list-wrap { flex: 1; overflow-y: auto; display: none; padding: 12px; }
+.slot-group { margin-bottom: 16px; }
+.slot-header {
+  font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--muted); padding: 4px 2px 8px;
+  display: flex; align-items: center; gap: 10px;
+}
+.slot-header::after {
+  content: ''; flex: 1; height: 1px; background: var(--border);
+}
+.session-sep {
+  font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--accent); background: var(--acc-bg);
+  border: 1px solid #e8cfc9; border-radius: 4px; padding: 4px 10px;
+  margin: 8px 0 16px; display: inline-block;
+}
+.lesson-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; }
+
+/* ── CARD (shared) ── */
+.card {
+  padding: 8px 9px; border-radius: 6px; border-left: 3px solid transparent;
+  font-size: 11.5px; line-height: 1.4; transition: opacity .15s;
+}
+.card.y1 { background: var(--y1); border-color: var(--y1b); }
+.card.y2 { background: var(--y2); border-color: var(--y2b); }
+.card.y3 { background: var(--y3); border-color: var(--y3b); }
+.card.y4 { background: var(--y4); border-color: var(--y4b); }
+.card.gol { background: var(--gol); border-color: var(--golb); }
+.card.dim { opacity: .12; }
+/* Desktop card wrapper adds margin */
+#table-wrap .card { margin: 3px; }
+
+.ct { font-family: 'IBM Plex Mono', monospace; font-size: 9px; color: var(--muted); margin-bottom: 1px; }
+.cc { font-size: 12px; font-weight: 700; color: var(--ink); margin-bottom: 1px; }
+.cu { font-weight: 600; font-size: 11.5px; color: var(--ink); }
+.cr { font-size: 9.5px; color: var(--muted); margin-top: 2px; }
+.cd { font-size: 10px; color: var(--muted); font-style: italic; margin-top: 2px; }
+
+/* ── LEGEND ── */
+#legend {
+  flex: 0 0 34px; display: none; align-items: center; gap: 12px; padding: 0 14px;
+  background: var(--paper); border-top: 1px solid var(--border);
+  font-size: 11px; color: var(--muted); overflow-x: auto;
+}
+#legend.on { display: flex; }
+.leg { display: flex; align-items: center; gap: 5px; white-space: nowrap; }
+.swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+.no-results {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  height: 100%; color: var(--muted); gap: 8px; font-size: 13px; padding: 32px;
+  text-align: center;
+}
+
+/* ── RESPONSIVE BREAKPOINT ── */
+@media (max-width: 640px) {
+  .brand-title { font-size: 14px; }
+  #hdr-date { display: none; } /* shown in mob-bar instead */
+  .ghost-btn.desktop-only { display: none; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <span class="brand-tag">CFP</span>
+    <span class="brand-title">Orario del giorno</span>
+  </div>
+  <div class="hdr-right">
+    <span id="hdr-date"></span>
+    <button class="ghost-btn desktop-only" id="btn-pub" style="display:none" onclick="downloadJson()">↓ Salva orario.json</button>
+    <button class="ghost-btn desktop-only" id="btn-new" style="display:none" onclick="showUpload()">+ Carica file</button>
+  </div>
+</header>
+
+<!-- Desktop controls -->
+<div id="controls">
+  <span class="lbl">Docente</span>
+  <select id="f-teacher"><option value="">— tutti —</option></select>
+  <div class="ctrl-sep"></div>
+  <span class="lbl">Aula</span>
+  <select id="f-room"><option value="">— tutte —</option></select>
+  <div class="ctrl-sep"></div>
+  <span class="lbl">Materia</span>
+  <input type="text" id="f-sub" placeholder="es. italiano…">
+  <div class="ctrl-sep"></div>
+  <button class="reset-btn" onclick="resetFilters()">✕ azzera</button>
+  <span id="count-badge"></span>
+</div>
+
+<!-- Mobile top bar -->
+<div id="mob-bar">
+  <span id="mob-date"></span>
+  <span id="mob-count"></span>
+  <button class="mob-filter-btn" id="mob-filter-btn" onclick="openDrawer()">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/></svg>
+    Filtri
+  </button>
+</div>
+
+<!-- Mobile filter drawer -->
+<div id="filter-drawer">
+  <div class="drawer-overlay" onclick="closeDrawer()"></div>
+  <div class="drawer-panel">
+    <div class="drawer-handle"></div>
+    <div class="drawer-title">Filtra lezioni</div>
+    <div class="drawer-field">
+      <label>Docente</label>
+      <select id="m-teacher"><option value="">— tutti —</option></select>
+    </div>
+    <div class="drawer-field">
+      <label>Aula</label>
+      <select id="m-room"><option value="">— tutte —</option></select>
+    </div>
+    <div class="drawer-field">
+      <label>Materia / UF</label>
+      <input type="text" id="m-sub" placeholder="es. italiano…">
+    </div>
+    <div class="drawer-actions">
+      <button class="drawer-reset" onclick="resetFilters()">✕ Azzera</button>
+      <button class="drawer-apply" onclick="closeDrawer()">Mostra risultati</button>
+    </div>
+  </div>
+</div>
+
+<div id="main">
+  <!-- State screen -->
+  <div id="state-screen">
+    <div class="spin" id="spin"></div>
+    <h2 id="state-title">Caricamento orario…</h2>
+    <p id="state-msg">Recupero il file dell'orario dal server.</p>
+    <div class="upload-fallback" id="upload-fallback" style="display:none">
+      <p>Oppure carica manualmente il file XLS:</p>
+      <label>Scegli file XLS <input type="file" id="file-input" accept=".xls,.xlsx"></label>
+    </div>
+  </div>
+
+  <!-- Desktop table -->
+  <div id="table-wrap"><div id="tbl"></div></div>
+
+  <!-- Mobile list -->
+  <div id="list-wrap"><div id="lst"></div></div>
+</div>
+
+<div id="legend">
+  <span class="lbl" style="margin-right:2px">Anno:</span>
+  <div class="leg"><div class="swatch" style="background:var(--y1);border:1.5px solid var(--y1b)"></div>1°</div>
+  <div class="leg"><div class="swatch" style="background:var(--y2);border:1.5px solid var(--y2b)"></div>2°</div>
+  <div class="leg"><div class="swatch" style="background:var(--y3);border:1.5px solid var(--y3b)"></div>3°</div>
+  <div class="leg"><div class="swatch" style="background:var(--y4);border:1.5px solid var(--y4b)"></div>4°</div>
+  <div class="leg"><div class="swatch" style="background:var(--gol);border:1.5px solid var(--golb)"></div>GOL/FAMI/IFTS</div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════
+// CONSTANTS
+// ═══════════════════════════════════════════
+const LESSON_STYLES   = new Set(['1','2','4','5']);
+const MORNING_SLOTS   = ['08:30','09:30','10:30','11:30','12:30','13:30'];
+const AFTERNOON_SLOTS = ['14:00','15:00','16:00','17:00'];
+const H2S = {
+  '09:00':'08:30','10:00':'09:30','11:00':'10:30','12:00':'11:30',
+  '13:00':'12:30','14:00':'13:30','15:00':'14:00','16:00':'15:00','17:00':'16:00','18:00':'17:00',
+};
+const ST2S = {
+  '08:30':'08:30','09:30':'09:30','10:30':'10:30','11:30':'11:30',
+  '12:30':'12:30','13:30':'13:30','14:30':'14:00','15:30':'15:00','16:30':'16:00','17:30':'17:00',
+};
+
+// ═══════════════════════════════════════════
+// RESPONSIVE
+// ═══════════════════════════════════════════
+const isMobile = () => window.innerWidth <= 640;
+
+// ═══════════════════════════════════════════
+// PARSER
+// ═══════════════════════════════════════════
+function parseXLS(xmlText) {
+  const doc = new DOMParser().parseFromString(xmlText,'text/xml');
+  const SS = 'urn:schemas-microsoft-com:office:spreadsheet';
+  const ws = doc.getElementsByTagNameNS(SS,'Worksheet')[0];
+  const sheetName = ws.getAttribute('ss:Name')||'';
+  const table = ws.getElementsByTagNameNS(SS,'Table')[0];
+  const rowEls = [...table.getElementsByTagNameNS(SS,'Row')];
+  const rooms={}, rawLessons=[];
+  let currentHour=null;
+  function txt(c){ const d=c.getElementsByTagNameNS(SS,'Data')[0]; return d?d.textContent.trim()||null:null; }
+  function sty(c){ return c.getAttribute('ss:StyleID')||''; }
+  for(let ri=0;ri<rowEls.length;ri++){
+    const cells=[...rowEls[ri].getElementsByTagNameNS(SS,'Cell')];
+    let col=1;
+    for(const cell of cells){
+      const idx=cell.getAttribute('ss:Index'); if(idx)col=parseInt(idx);
+      const s=sty(cell),t=txt(cell);
+      if(ri===3&&t)rooms[col]=t;
+      if(ri>=4){
+        if(s==='s02'&&t)currentHour=t;
+        if(LESSON_STYLES.has(s)&&t){
+          const p=parseCell(t,currentHour);
+          if(p){p.room=rooms[col]||`col${col}`;p.fileHour=currentHour;rawLessons.push(p);}
+        }
+      }
+      col++;
+    }
+  }
+  return{title:sheetName,rooms,rawLessons};
+}
+
+function extractCode(raw){
+  const m=raw.match(/^(\d[A-Z\/]+)/); if(m)return m[1].replace(/_$/,'');
+  const p=raw.split('_');
+  if(['MI','FAMI','XXXX'].includes(p[0]))return p.slice(0,3).join('_');
+  return p[0];
+}
+function yr(c){
+  if(!c)return'gol';
+  for(const y of'1234')if(c.startsWith(y))return`y${y}`;
+  return'gol';
+}
+function parseCell(raw,fileHour){
+  const lines=raw.split('\n').map(l=>l.trim()).filter(Boolean);
+  if(!lines.length)return null;
+  let startTime=null,classCode=null,course=null,uf=null,teacher=null;
+  const fl=lines[0];
+  const tm=fl.match(/^(\d{2}:\d{2})\s+(.+)$/);
+  if(tm){
+    startTime=tm[1];
+    const rest=tm[2].trim();
+    const cm=rest.match(/^([A-Z0-9\/_\-\.]+(?:\/[\d_]+)?)\s*/);
+    classCode=cm?extractCode(cm[1]):rest.split(/\s+/)[0];
+  } else {
+    const cm=fl.match(/^([A-Z0-9\/_\-\.]+(?:\/[\d_]+)?)/);
+    classCode=cm?extractCode(cm[1]):fl.slice(0,20);
+  }
+  for(let i=1;i<lines.length;i++){
+    const l=lines[i];
+    if(l.startsWith('UF:'))uf=l.slice(3).trim();
+    else if(l.startsWith('DOC:'))teacher=l.slice(4).trim();
+    else if(!course&&!/^[A-Z0-9\/_\-]+$/.test(l))course=l;
+  }
+  if(!teacher&&!uf)return null;
+  return{startTime,classCode,course,uf,teacher};
+}
+
+// ═══════════════════════════════════════════
+// BUILD SCHEDULE
+// ═══════════════════════════════════════════
+function buildSchedule(rawLessons,titleStr){
+  const seen=new Set(), lessons=[];
+  for(const r of rawLessons){
+    let slot;
+    if(r.startTime&&ST2S[r.startTime]) slot=ST2S[r.startTime];
+    else if(['14:00','15:00','16:00','17:00'].includes(r.fileHour)) slot=r.fileHour;
+    else slot=H2S[r.fileHour]||r.fileHour;
+    const key=`${r.classCode}|${r.uf}|${r.teacher}|${slot}`;
+    if(seen.has(key))continue; seen.add(key);
+    lessons.push({slot,classCode:r.classCode,course:r.course,uf:r.uf,teacher:r.teacher,room:r.room,year:yr(r.classCode),startTime:r.startTime});
+  }
+  const used=new Set(lessons.map(l=>l.slot));
+  const morningSlots=MORNING_SLOTS.filter(s=>used.has(s));
+  const afterSlots=AFTERNOON_SLOTS.filter(s=>used.has(s));
+  const slots=[...morningSlots,...afterSlots];
+  const allClasses=[...new Set(lessons.map(l=>l.classCode))].sort((a,b)=>{
+    const ac=/^\d/.test(a),bc=/^\d/.test(b);
+    if(ac&&!bc)return-1; if(!ac&&bc)return 1;
+    return a.localeCompare(b,'it');
+  });
+  const dm=titleStr.match(/(\d{2}\/\d{2}\/\d{4})/);
+  return{lessons,slots,allClasses,morningSlots,afterSlots,dateStr:dm?dm[1]:''};
+}
+
+// ═══════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════
+let RAW=null, SCHED=null;
+let FILT={teacher:'',room:'',subject:''};
+
+// ═══════════════════════════════════════════
+// RENDER
+// ═══════════════════════════════════════════
+function render(){
+  if(!SCHED)return;
+  if(isMobile()) renderList(); else renderTable();
+}
+
+// ── TABLE (desktop) ──
+function renderTable(){
+  const wrap=document.getElementById('tbl');
+  const{lessons,slots,allClasses,morningSlots,afterSlots}=SCHED;
+  const visible=applyFilters(lessons);
+  const visSet=new Set(visible);
+  const hasF=!!(FILT.teacher||FILT.room||FILT.subject);
+  updateCount(visible.length,lessons.length);
+  const activeClasses=hasF?allClasses.filter(c=>visible.some(l=>l.classCode===c)):allClasses;
+  if(!slots.length||!activeClasses.length){
+    wrap.innerHTML=noResults(); return;
+  }
+  const grid={};
+  for(const s of slots){grid[s]={};for(const c of activeClasses)grid[s][c]=[];}
+  for(const l of lessons) if(grid[l.slot]&&grid[l.slot][l.classCode]!==undefined) grid[l.slot][l.classCode].push(l);
+  const colors={y1:['var(--y1)','var(--y1b)'],y2:['var(--y2)','var(--y2b)'],y3:['var(--y3)','var(--y3b)'],y4:['var(--y4)','var(--y4b)'],gol:['var(--gol)','var(--golb)']};
+  let h=`<table><thead><tr><th class="th-time">Ora</th>`;
+  for(const c of activeClasses){
+    const[bg,brd]=colors[yr(c)]||['#eee','#aaa'];
+    h+=`<th style="background:${bg};border-bottom-color:${brd}"><span class="cn">${e(c)}</span></th>`;
+  }
+  h+=`</tr></thead><tbody>`;
+  const hasBoth=morningSlots.length>0&&afterSlots.length>0;
+  for(const s of slots){
+    if(hasBoth&&s===afterSlots[0]) h+=`<tr class="divrow"><td class="dlabel" colspan="${activeClasses.length+1}">POMERIGGIO</td></tr>`;
+    h+=`<tr><td class="td-time">${s}</td>`;
+    for(const c of activeClasses){
+      const cellAll=lessons.filter(l=>l.slot===s&&l.classCode===c);
+      h+=`<td>`;
+      if(!cellAll.length) h+=`<div class="empty-cell"></div>`;
+      else for(const l of cellAll) h+=makeCard(l,hasF&&!visSet.has(l),false);
+      h+=`</td>`;
+    }
+    h+=`</tr>`;
+  }
+  h+=`</tbody></table>`;
+  wrap.innerHTML=h;
+}
+
+// ── LIST (mobile) ──
+function renderList(){
+  const wrap=document.getElementById('lst');
+  const{lessons,slots,morningSlots,afterSlots}=SCHED;
+  const visible=applyFilters(lessons);
+  updateCount(visible.length,lessons.length);
+  if(!visible.length){ wrap.innerHTML=noResults(); return; }
+  const hasBoth=morningSlots.length>0&&afterSlots.length>0;
+  let h='';
+  for(const s of slots){
+    const slotLessons=visible.filter(l=>l.slot===s);
+    if(!slotLessons.length)continue;
+    if(hasBoth&&s===afterSlots[0]) h+=`<div class="session-sep">POMERIGGIO</div>`;
+    h+=`<div class="slot-group">`;
+    h+=`<div class="slot-header">${s}</div>`;
+    h+=`<div class="lesson-cards">`;
+    // Sort by class
+    slotLessons.sort((a,b)=>a.classCode.localeCompare(b.classCode,'it'));
+    for(const l of slotLessons) h+=makeCard(l,false,true);
+    h+=`</div></div>`;
+  }
+  wrap.innerHTML=h;
+}
+
+function makeCard(l,dim,showClass){
+  return`<div class="card ${l.year}${dim?' dim':''}">
+    ${l.startTime?`<div class="ct">${e(l.startTime)}</div>`:''}
+    ${showClass?`<div class="cc">${e(l.classCode)}</div>`:''}
+    <div class="cu">${e(l.uf||'')}</div>
+    <div class="cr">${e(l.room||'')}</div>
+    <div class="cd">${e(l.teacher||'')}</div>
+  </div>`;
+}
+
+function noResults(){
+  return`<div class="no-results"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Nessuna lezione trovata.</span></div>`;
+}
+
+function e(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+function applyFilters(lessons){
+  return lessons.filter(l=>{
+    const ft=FILT.teacher.toLowerCase(),fr=FILT.room,fs=FILT.subject.toLowerCase();
+    if(ft&&!(l.teacher||'').toLowerCase().includes(ft))return false;
+    if(fr&&l.room!==fr)return false;
+    if(fs&&!(l.uf||'').toLowerCase().includes(fs))return false;
+    return true;
+  });
+}
+
+function updateCount(v,t){
+  const hasF=!!(FILT.teacher||FILT.room||FILT.subject);
+  const txt=hasF?`${v}/${t} lezioni`:`${t} lezioni`;
+  document.getElementById('count-badge').textContent=txt;
+  document.getElementById('mob-count').textContent=txt;
+  // highlight filter button if active
+  document.getElementById('mob-filter-btn').classList.toggle('active',hasF);
+}
+
+// ═══════════════════════════════════════════
+// DATA LOAD
+// ═══════════════════════════════════════════
+function onDataReady(raw){
+  RAW=raw; SCHED=buildSchedule(raw.rawLessons,raw.title);
+  document.getElementById('state-screen').style.display='none';
+  document.getElementById('legend').classList.add('on');
+  document.getElementById('btn-pub').style.display='inline-block';
+  document.getElementById('btn-new').style.display='inline-block';
+  if(SCHED.dateStr){
+    document.getElementById('hdr-date').textContent=SCHED.dateStr;
+    document.getElementById('mob-date').textContent=SCHED.dateStr;
+  }
+  populateFilters(SCHED.lessons);
+  if(isMobile()){
+    document.getElementById('controls').style.display='none';
+    document.getElementById('mob-bar').classList.add('on');
+    document.getElementById('table-wrap').style.display='none';
+    document.getElementById('list-wrap').style.display='block';
+  } else {
+    document.getElementById('controls').style.display='flex';
+    document.getElementById('mob-bar').classList.remove('on');
+    document.getElementById('table-wrap').style.display='block';
+    document.getElementById('list-wrap').style.display='none';
+  }
+  resetFilters();
+}
+
+async function autoLoad(){
+  try{
+    const res=await fetch('orario.json?t='+Date.now());
+    if(!res.ok)throw new Error(`HTTP ${res.status}`);
+    const data=await res.json();
+    if(!data.rawLessons||!data.rooms)throw new Error('Formato non valido.');
+    onDataReady(data);
+  }catch(err){ showError(); }
+}
+
+function showError(){
+  document.getElementById('spin').style.display='none';
+  document.getElementById('state-title').textContent='Nessun orario disponibile';
+  document.getElementById('state-msg').textContent='Il file orario.json non è stato trovato. Carica un file XLS per aggiornare l\'orario.';
+  document.getElementById('upload-fallback').style.display='block';
+}
+
+function showUpload(){
+  RAW=null; SCHED=null;
+  document.getElementById('state-screen').style.display='flex';
+  document.getElementById('controls').style.display='none';
+  document.getElementById('mob-bar').classList.remove('on');
+  document.getElementById('table-wrap').style.display='none';
+  document.getElementById('list-wrap').style.display='none';
+  document.getElementById('legend').classList.remove('on');
+  document.getElementById('btn-pub').style.display='none';
+  document.getElementById('btn-new').style.display='none';
+  document.getElementById('hdr-date').textContent='';
+  document.getElementById('spin').style.display='none';
+  document.getElementById('state-title').textContent='Carica un file XLS';
+  document.getElementById('state-msg').textContent='';
+  document.getElementById('upload-fallback').style.display='block';
+  document.getElementById('file-input').value='';
+}
+
+document.getElementById('file-input').addEventListener('change',ev=>{
+  const file=ev.target.files[0]; if(!file)return;
+  const r=new FileReader();
+  r.onload=e2=>{try{onDataReady(parseXLS(e2.target.result));}catch(err){alert('Errore parsing: '+err.message);}};
+  r.readAsText(file,'UTF-8');
+});
+
+// Re-render on resize crossing breakpoint
+let _wasMobile=isMobile();
+window.addEventListener('resize',()=>{
+  const m=isMobile();
+  if(m===_wasMobile||!SCHED)return;
+  _wasMobile=m;
+  onDataReady(RAW); // re-init layout
+});
+
+// ═══════════════════════════════════════════
+// FILTERS
+// ═══════════════════════════════════════════
+function populateFilters(lessons){
+  const ts=[...new Set(lessons.map(l=>l.teacher).filter(Boolean))].sort();
+  const tOpts=`<option value="">— tutti —</option>${ts.map(t=>`<option value="${e(t)}">${e(t)}</option>`).join('')}`;
+  document.getElementById('f-teacher').innerHTML=tOpts;
+  document.getElementById('m-teacher').innerHTML=tOpts;
+  const rs=[...new Set(lessons.map(l=>l.room).filter(Boolean))].sort();
+  const rOpts=`<option value="">— tutte —</option>${rs.map(r=>`<option value="${e(r)}">${e(r)}</option>`).join('')}`;
+  document.getElementById('f-room').innerHTML=rOpts;
+  document.getElementById('m-room').innerHTML=rOpts;
+}
+
+// Sync desktop ↔ mobile filter values
+function syncFilters(src){
+  const t=document.getElementById(src==='d'?'f-teacher':'m-teacher').value;
+  const r=document.getElementById(src==='d'?'f-room':'m-room').value;
+  const s=document.getElementById(src==='d'?'f-sub':'m-sub').value;
+  FILT={teacher:t,room:r,subject:s};
+  if(src==='d'){
+    document.getElementById('m-teacher').value=t;
+    document.getElementById('m-room').value=r;
+    document.getElementById('m-sub').value=s;
+  } else {
+    document.getElementById('f-teacher').value=t;
+    document.getElementById('f-room').value=r;
+    document.getElementById('f-sub').value=s;
+  }
+  render();
+}
+
+document.getElementById('f-teacher').addEventListener('change',()=>syncFilters('d'));
+document.getElementById('f-room').addEventListener('change',()=>syncFilters('d'));
+document.getElementById('f-sub').addEventListener('input',()=>syncFilters('d'));
+document.getElementById('m-teacher').addEventListener('change',()=>syncFilters('m'));
+document.getElementById('m-room').addEventListener('change',()=>syncFilters('m'));
+document.getElementById('m-sub').addEventListener('input',()=>syncFilters('m'));
+
+function resetFilters(){
+  FILT={teacher:'',room:'',subject:''};
+  ['f-teacher','m-teacher'].forEach(id=>document.getElementById(id).value='');
+  ['f-room','m-room'].forEach(id=>document.getElementById(id).value='');
+  ['f-sub','m-sub'].forEach(id=>document.getElementById(id).value='');
+  render();
+}
+
+// ═══════════════════════════════════════════
+// FILTER DRAWER
+// ═══════════════════════════════════════════
+function openDrawer(){ document.getElementById('filter-drawer').classList.add('open'); }
+function closeDrawer(){ document.getElementById('filter-drawer').classList.remove('open'); }
+
+// ═══════════════════════════════════════════
+// DOWNLOAD
+// ═══════════════════════════════════════════
+function downloadJson(){
+  if(!RAW)return;
+  const payload=JSON.stringify({title:RAW.title,rooms:RAW.rooms,rawLessons:RAW.rawLessons,ts:Date.now()});
+  const blob=new Blob([payload],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob); a.download='orario.json'; a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+// ═══════════════════════════════════════════
+// BOOT
+// ═══════════════════════════════════════════
+autoLoad();
+</script>
+</body>
+</html>

@@ -1,0 +1,511 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<ss:Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"  xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>InnovaPlan</Author>
+<LastAuthor>InnovaPlan</LastAuthor>
+<Created>2026-04-10T09:22:23Z</Created><LastSaved>2026-04-10T09:22:23Z</LastSaved><Version>14.00</Version>
+</DocumentProperties>
+<OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+<AllowPNG/>
+</OfficeDocumentSettings>
+<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+</ExcelWorkbook>
+<Styles>
+<Style ss:ID="s62">
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="10" />
+<Interior ss:Color="#9BBB59" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="sc">
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="10" />
+<Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="0"   >
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="10" />
+<Interior ss:Color="#E1E1E1" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="2"   >
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="10" />
+<Interior ss:Color="#DDEBF7" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="3"   >
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="10" />
+<Interior ss:Color="#C6E0B4" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="4"   >
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="10" />
+<Interior ss:Color="#F8CBAD" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="5"   >
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="10" />
+<Interior ss:Color="#FFE699" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="1"   >
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="10" />
+</Style>
+<Style ss:ID="6"   >
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="10" />
+</Style>
+<Style ss:ID="7"   >
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="10" />
+</Style>
+<Style ss:ID="Default" ss:Name="Normal">
+  <Alignment ss:Horizontal="Center" ss:Vertical="Center" />
+  <Borders/>
+  <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="10" ss:Color="#000000" />
+  <Interior/>
+  <NumberFormat ss:Format="#,##0.00;[Red]\-#,##0.00" />
+  <Protection/>
+</Style>
+<Style ss:ID="s01">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="14" ss:Bold="1" />
+</Style>
+<Style ss:ID="s02">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="10" />
+<Interior ss:Color="#9BBB59" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="s03">
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8" />
+<Interior ss:Color="#C5D9F1" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="s04">
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+</Borders>
+<Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8" />
+</Style>
+</Styles>
+<ss:Worksheet ss:Name="Plan del 10-04-2026"><Table ss:DefaultRowHeight="30" x:FullColumns="1" x:FullRows="1">
+<Column ss:AutoFitWidth="1" ss:Width="29.25" />
+<Column ss:AutoFitWidth="1" ss:Width="161.25" ss:Span="44" /><Row ss:AutoFitHeight="0" ss:Height="30" />
+<Row ss:AutoFitHeight="1" ss:Height="30">
+<Cell ss:MergeAcross="44" ss:StyleID="s01"><Data ss:Type="String">PIANIFICAZIONE AULE DEL GIORNO: 10/04/2026</Data></Cell></Row>
+<Row ss:AutoFitHeight="0" ss:Height="30" />
+<Row ss:AutoFitHeight="0" ss:Height="30">
+<Cell />
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P1-01-Grafica</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P1-02-Informatica</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P1-04-Didattica frontale</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P1-05-Didattica frontale</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P1-06-Didattica frontale</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P1-07-Didattica frontale</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P1-08-Didattica frontale</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P1-09-Sala colloqui</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P1-10-Didattica frontale</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P2-02-Informatica</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P2-03-Didattica frontale</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P2-06-Didattica frontale/Sala riunioni</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P2-07-Didattica frontale/Sala riunioni</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P2-08-Didattica frontale</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">P2-09-Didattica frontale</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">PS-01-Laboratorio di cucina</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">PT-02-Polifunzionale</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">PT-03-Polifunzionale</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">PT-06-Acconciatura e Barberia</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">PT-09-Estetica</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">PT-10-Didattica frontale</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">PT-12-Lab. Sala e Bar</ss:Data></Cell>
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">PT-13-Multimediale</ss:Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">07:00</ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">08:00</ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">09:00</ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 3E_36229/140505_2025/2026 </B> &#10;Operatore del benessere: erogazione dei servizi di trattamento estetico - 3° annualità 2025/2026&#10;UF:INFORMATICA DI BASE - AI&#10;DOC:BRESCIANI NAZARENO</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 1C_55228/142050_2025/2026 </B> &#10;Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026&#10;UF:IRC&#10;DOC:ASTI ANTONELLA GEMMA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 1D_55250/142062_2025/2026 </B> &#10;Operatore Informatico - 1° annualità 2025/2026&#10;UF:GEO STORIA&#10;DOC:DEL VILLANO SILVIA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 3D_36236/136129_2025/2026 </B> &#10;Operatore Informatico - 3° annualità 2025/2026&#10;UF:LAB. RETI E SISTEMI&#10;DOC:RAFFO ELISABETTA</Font></ss:Data></Cell><Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 4D_56160/144617_2025/2026 </B> &#10;Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026&#10;UF:ORIENTAMENTO&#10;DOC:RAVERA MIRIAM</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 1E_55246/142048_2025/2026 </B> &#10;Operatore del benessere: erogazione dei servizi di trattamento estetico - 1° annualità 2025/2026&#10;UF:COSMETOLOGIA&#10;DOC:VESCI MONICA</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Stagisti 2G</Font></ss:Data></Cell><Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 4G_56161/144618_2025/2026 </B> &#10;Tecnico grafico ipermediale - 4° annualità 2025/2026&#10;UF:INFORMATICA DI BASE&#10;DOC:POZZI FEDERICO</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 1G_55249/142061_2025/2026 </B> &#10;Operatore Grafico Ipermediale - 1° annualità 2025/2026&#10;UF:STORIA DEL SETTORE&#10;DOC:LEVA ANGELO</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 1B_55248/142049_2025/2026 </B> &#10;Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026&#10;UF:INGLESE&#10;DOC:CIMINO ALESSANDRA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 3B_36233/140496_2025/2026 </B> &#10;Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 3° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:CALOGERA TERESA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 3C_36234/136157_2025/2026 </B> &#10;Operatore della ristorazione: Preparazione degli alimenti e allestimento piatti 3° annualità 2025/2026&#10;UF:ALIMENTAZIONE&#10;DOC:GOBBATO GIORGIA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 1M_55245/142047_2025/2026 </B> &#10;Operatore ai servizi d'impresa - 1° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:MARTIGNANO FEDERICO</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 3A_36231/140503_2025/2026 </B> &#10;Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026&#10;UF:COSMETOLOGIA&#10;DOC:GALLI GIULIA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 4A/E_144602-144601_2025/2026 </B> &#10;Tecnico del benessere - 4°annualità 2025/2026&#10;UF:ECONOMIA&#10;DOC:PACCHETTI SERENA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>08:30  <B> 1A_55247/142060_2025/2026 </B> &#10;Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026&#10;UF:INGLESE&#10;DOC:SACCO ISABELLA</Font></ss:Data></Cell></Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">10:00</ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 3G_36235/136130_2025/2026 </B> &#10;Operatore Grafico Ipermediale - 3° annualità 2025/2026&#10;UF:PROGETTAZIONE&#10;DOC:PESCI MARCO</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 3E_36229/140505_2025/2026 </B> &#10;Operatore del benessere: erogazione dei servizi di trattamento estetico - 3° annualità 2025/2026&#10;UF:INFORMATICA DI BASE - AI&#10;DOC:BRESCIANI NAZARENO</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 1C_55228/142050_2025/2026 </B> &#10;Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:MARTIGNANO FEDERICO</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 1D_55250/142062_2025/2026 </B> &#10;Operatore Informatico - 1° annualità 2025/2026&#10;UF:IRC&#10;DOC:ASTI ANTONELLA GEMMA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 3D_36236/136129_2025/2026 </B> &#10;Operatore Informatico - 3° annualità 2025/2026&#10;UF:LAB. RETI E SISTEMI&#10;DOC:RAFFO ELISABETTA</Font></ss:Data></Cell><Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 4D_56160/144617_2025/2026 </B> &#10;Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026&#10;UF:IRC&#10;DOC:LEVA ANGELO</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 1E_55246/142048_2025/2026 </B> &#10;Operatore del benessere: erogazione dei servizi di trattamento estetico - 1° annualità 2025/2026&#10;UF:ARTE E TERRITORIO&#10;DOC:PEREGO REBECCA</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Stagisti 2G</Font></ss:Data></Cell><Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 4G_56161/144618_2025/2026 </B> &#10;Tecnico grafico ipermediale - 4° annualità 2025/2026&#10;UF:INFORMATICA DI BASE&#10;DOC:POZZI FEDERICO</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 1G_55249/142061_2025/2026 </B> &#10;Operatore Grafico Ipermediale - 1° annualità 2025/2026&#10;UF:ITALIANO&#10;DOC:DEL VILLANO SILVIA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 3C_36234/136157_2025/2026 </B> &#10;Operatore della ristorazione: Preparazione degli alimenti e allestimento piatti 3° annualità 2025/2026&#10;UF:ITALIANO&#10;DOC:MELILLO MARINA IDA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 1B_55248/142049_2025/2026 </B> &#10;Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:CALOGERA TERESA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 3B_36233/140496_2025/2026 </B> &#10;Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 3° annualità 2025/2026&#10;UF:INGLESE&#10;DOC:CIMINO ALESSANDRA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B>  XXXX_IFTS_APP43_IDRELE </B> &#10;IFTS_APP43_IDRELE 26&#10;UF:SICUREZZA&#10;DOC:ALBERTI FRANCESCA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 1M_55245/142047_2025/2026 </B> &#10;Operatore ai servizi d'impresa - 1° annualità 2025/2026&#10;UF:ORIENTAMENTO&#10;DOC:RAVERA MIRIAM</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 3A_36231/140503_2025/2026 </B> &#10;Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026&#10;UF:INGLESE&#10;DOC:SACCO ISABELLA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 4A/E_144602-144601_2025/2026 </B> &#10;Tecnico del benessere - 4°annualità 2025/2026&#10;UF:CITTADINANZA&#10;DOC:PACCHETTI SERENA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>09:30  <B> 1A_55247/142060_2025/2026 </B> &#10;Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:PELLEGRINI LORENZO</Font></ss:Data></Cell></Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">11:00</ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 3G_36235/136130_2025/2026 </B> &#10;Operatore Grafico Ipermediale - 3° annualità 2025/2026&#10;UF:PROGETTAZIONE&#10;DOC:PESCI MARCO</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 1C_55228/142050_2025/2026 </B> &#10;Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026&#10;UF:A - P REVISIONE&#10;DOC:CORAINI ELENA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 1D_55250/142062_2025/2026 </B> &#10;Operatore Informatico - 1° annualità 2025/2026&#10;UF:ITALIANO&#10;DOC:DEL VILLANO SILVIA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 3D_36236/136129_2025/2026 </B> &#10;Operatore Informatico - 3° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:CALOGERA TERESA</Font></ss:Data></Cell><Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 4D_56160/144617_2025/2026 </B> &#10;Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026&#10;UF:LAB. GRAFICA WEB&#10;DOC:POZZI FEDERICO</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 1E_55246/142048_2025/2026 </B> &#10;Operatore del benessere: erogazione dei servizi di trattamento estetico - 1° annualità 2025/2026&#10;UF:INGLESE&#10;DOC:SACCO ISABELLA</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Stagisti 2G</Font></ss:Data></Cell><Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 4G_56161/144618_2025/2026 </B> &#10;Tecnico grafico ipermediale - 4° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:MARTIGNANO FEDERICO</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 1G_55249/142061_2025/2026 </B> &#10;Operatore Grafico Ipermediale - 1° annualità 2025/2026&#10;UF:STORIA DELL'ARTE&#10;DOC:PEREGO REBECCA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 3C_36234/136157_2025/2026 </B> &#10;Operatore della ristorazione: Preparazione degli alimenti e allestimento piatti 3° annualità 2025/2026&#10;UF:ITALIANO&#10;DOC:MELILLO MARINA IDA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 3B_36233/140496_2025/2026 </B> &#10;Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 3° annualità 2025/2026&#10;UF:INGLESE&#10;DOC:CIMINO ALESSANDRA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B>  XXXX_IFTS_APP43_IDRELE </B> &#10;IFTS_APP43_IDRELE 26&#10;UF:SICUREZZA&#10;DOC:ALBERTI FRANCESCA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 1B_55248/142049_2025/2026 </B> &#10;Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026&#10;UF:A - P TAVOLA CALDA&#10;DOC:SALETTA NICHOLAS</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 1M_55245/142047_2025/2026 </B> &#10;Operatore ai servizi d'impresa - 1° annualità 2025/2026&#10;UF:IRC&#10;DOC:ASTI ANTONELLA GEMMA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 3A_36231/140503_2025/2026 </B> &#10;Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:PELLEGRINI LORENZO</Font></ss:Data></Cell><Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 4E_56153/144601_2025/2026 </B> &#10;Tecnico dei trattamenti estetici - 4°annualità 2025/2026&#10;UF:COSMETOLOGIA&#10;DOC:VESCI MONICA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 3E_36229/140505_2025/2026 </B> &#10;Operatore del benessere: erogazione dei servizi di trattamento estetico - 3° annualità 2025/2026&#10;UF:QUALITA' E GESTIONE D'IMPRESA&#10;DOC:PACCHETTI SERENA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>10:30  <B> 1A_55247/142060_2025/2026 </B> &#10;Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026&#10;UF:SCIENZE&#10;DOC:GOBBATO GIORGIA</Font></ss:Data></Cell></Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">12:00</ss:Data></Cell><Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 4G_56161/144618_2025/2026 </B> &#10;Tecnico grafico ipermediale - 4° annualità 2025/2026&#10;UF:EDITORIA&#10;DOC:PESCI MARCO</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 3B_36233/140496_2025/2026 </B> &#10;Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 3° annualità 2025/2026&#10;UF:INFORMATICA DI BASE - AI&#10;DOC:BRESCIANI NAZARENO</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 1C_55228/142050_2025/2026 </B> &#10;Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026&#10;UF:IGIENE&#10;DOC:GOBBATO GIORGIA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 1D_55250/142062_2025/2026 </B> &#10;Operatore Informatico - 1° annualità 2025/2026&#10;UF:COMUNICAZIONE&#10;DOC:MARZOLA MATTIA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 3D_36236/136129_2025/2026 </B> &#10;Operatore Informatico - 3° annualità 2025/2026&#10;UF:ITALIANO&#10;DOC:DEL VILLANO SILVIA</Font></ss:Data></Cell><Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 4D_56160/144617_2025/2026 </B> &#10;Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026&#10;UF:LAB. GRAFICA WEB&#10;DOC:POZZI FEDERICO</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 1E_55246/142048_2025/2026 </B> &#10;Operatore del benessere: erogazione dei servizi di trattamento estetico - 1° annualità 2025/2026&#10;UF:ORIENTAMENTO&#10;DOC:AMATI MADDALENA</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Stagisti 2G</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 3C_36234/136157_2025/2026 </B> &#10;Operatore della ristorazione: Preparazione degli alimenti e allestimento piatti 3° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:MARTIGNANO FEDERICO</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 1G_55249/142061_2025/2026 </B> &#10;Operatore Grafico Ipermediale - 1° annualità 2025/2026&#10;UF:STORIA DELL'ARTE&#10;DOC:PEREGO REBECCA</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>riunione settore Digital - prenotato da Leva</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 3G_36235/136130_2025/2026 </B> &#10;Operatore Grafico Ipermediale - 3° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:CALOGERA TERESA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 3A_36231/140503_2025/2026 </B> &#10;Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026&#10;UF:CITTADINANZA&#10;DOC:ABRUZZO ROSALIA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 1B_55248/142049_2025/2026 </B> &#10;Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026&#10;UF:A - P TAVOLA CALDA&#10;DOC:SALETTA NICHOLAS</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 1M_55245/142047_2025/2026 </B> &#10;Operatore ai servizi d'impresa - 1° annualità 2025/2026&#10;UF:IRC&#10;DOC:ASTI ANTONELLA GEMMA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 4E_56153/144601_2025/2026 </B> &#10;Tecnico dei trattamenti estetici - 4°annualità 2025/2026&#10;UF:COSMETOLOGIA&#10;DOC:VESCI MONICA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 3E_36229/140505_2025/2026 </B> &#10;Operatore del benessere: erogazione dei servizi di trattamento estetico - 3° annualità 2025/2026&#10;UF:INGLESE&#10;DOC:SACCO ISABELLA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>11:30  <B> 1A_55247/142060_2025/2026 </B> &#10;Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:PELLEGRINI LORENZO</Font></ss:Data></Cell></Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">13:00</ss:Data></Cell><Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 4G_56161/144618_2025/2026 </B> &#10;Tecnico grafico ipermediale - 4° annualità 2025/2026&#10;UF:EDITORIA&#10;DOC:PESCI MARCO</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 3B_36233/140496_2025/2026 </B> &#10;Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 3° annualità 2025/2026&#10;UF:INFORMATICA DI BASE - AI&#10;DOC:BRESCIANI NAZARENO</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 1C_55228/142050_2025/2026 </B> &#10;Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026&#10;UF:IGIENE&#10;DOC:GOBBATO GIORGIA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 1D_55250/142062_2025/2026 </B> &#10;Operatore Informatico - 1° annualità 2025/2026&#10;UF:COMUNICAZIONE&#10;DOC:MARZOLA MATTIA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 3D_36236/136129_2025/2026 </B> &#10;Operatore Informatico - 3° annualità 2025/2026&#10;UF:ORIENTAMENTO&#10;DOC:RAVERA MIRIAM</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 1E_55246/142048_2025/2026 </B> &#10;Operatore del benessere: erogazione dei servizi di trattamento estetico - 1° annualità 2025/2026&#10;UF:CITTADINANZA&#10;DOC:ABRUZZO ROSALIA</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Stagisti 2G</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 3C_36234/136157_2025/2026 </B> &#10;Operatore della ristorazione: Preparazione degli alimenti e allestimento piatti 3° annualità 2025/2026&#10;UF:INGLESE&#10;DOC:CIMINO ALESSANDRA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 1G_55249/142061_2025/2026 </B> &#10;Operatore Grafico Ipermediale - 1° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:CALOGERA TERESA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 3G_36235/136130_2025/2026 </B> &#10;Operatore Grafico Ipermediale - 3° annualità 2025/2026&#10;UF:CITTADINANZA&#10;DOC:PACCHETTI SERENA</Font></ss:Data></Cell><Cell ss:StyleID="4"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 3A_36231/140503_2025/2026 </B> &#10;Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026&#10;UF:MATEMATICA&#10;DOC:PELLEGRINI LORENZO</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 1B_55248/142049_2025/2026 </B> &#10;Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026&#10;UF:A - P TAVOLA CALDA&#10;DOC:SALETTA NICHOLAS</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 1M_55245/142047_2025/2026 </B> &#10;Operatore ai servizi d'impresa - 1° annualità 2025/2026&#10;UF:SPAGNOLO&#10;DOC:FRANZONI CRISTINA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 4E_56153/144601_2025/2026 </B> &#10;Tecnico dei trattamenti estetici - 4°annualità 2025/2026&#10;UF:COSMETOLOGIA&#10;DOC:VESCI MONICA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>12:30  <B> 1A_55247/142060_2025/2026 </B> &#10;Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026&#10;UF:IRC&#10;DOC:ASTI ANTONELLA GEMMA</Font></ss:Data></Cell></Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">14:00</ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 1A_55247/142060_2025/2026 </B> &#10;Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026&#10;UF:CORSO AFFETTIVITA'&#10;DOC:RAVERA MIRIAM</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Scrutinio 2B</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa compiti </Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Stagisti 2G</Font></ss:Data></Cell><Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 4G_56161/144618_2025/2026 </B> &#10;Tecnico grafico ipermediale - 4° annualità 2025/2026&#10;UF:SOCIAL&#10;DOC:BRESCIANI NAZARENO</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> MI_GOL_26_69918 </B> &#10;MI_GOL_26_69918_OPERATORE CAF&#10;UF:EXCEL&#10;DOC:PETRONIFORMA DI PETRONI GIANLUCA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 1G_55249/142061_2025/2026 </B> &#10;Operatore Grafico Ipermediale - 1° annualità 2025/2026&#10;UF:A - P AZIENDE ED EVENTI&#10;DOC:FORNERIS GABRIELE</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 1C_55228/142050_2025/2026 </B> &#10;Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026&#10;UF:A - P CUCINA&#10;DOC:SALETTA NICHOLAS</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa dei Compiti</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa dei Compiti</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 4E_56153/144601_2025/2026 </B> &#10;Tecnico dei trattamenti estetici - 4°annualità 2025/2026&#10;UF:EPILAZIONE &#10;DOC:VESCI MONICA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 1M_55245/142047_2025/2026 </B> &#10;Operatore ai servizi d'impresa - 1° annualità 2025/2026&#10;UF:ECONOMIA&#10;DOC:ABRUZZO ROSALIA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa dei Compiti</Font></ss:Data></Cell></Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">15:00</ss:Data></Cell><Cell ss:StyleID="1"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>14:30  <B> FAMI EXEMPLA </B> &#10;FAMI EXEMPLA&#10;UF:LINGUAGGI DIGITALI&#10;DOC:POZZI FEDERICO</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 1A_55247/142060_2025/2026 </B> &#10;Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026&#10;UF:CORSO AFFETTIVITA'&#10;DOC:RAVERA MIRIAM</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Scrutinio 2B</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa compiti </Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa compiti </Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Stagisti 2G</Font></ss:Data></Cell><Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 4G_56161/144618_2025/2026 </B> &#10;Tecnico grafico ipermediale - 4° annualità 2025/2026&#10;UF:SOCIAL&#10;DOC:BRESCIANI NAZARENO</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> MI_GOL_26_69918 </B> &#10;MI_GOL_26_69918_OPERATORE CAF&#10;UF:EXCEL&#10;DOC:PETRONIFORMA DI PETRONI GIANLUCA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 1G_55249/142061_2025/2026 </B> &#10;Operatore Grafico Ipermediale - 1° annualità 2025/2026&#10;UF:A - P AZIENDE ED EVENTI&#10;DOC:FORNERIS GABRIELE</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 1C_55228/142050_2025/2026 </B> &#10;Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026&#10;UF:A - P CUCINA&#10;DOC:SALETTA NICHOLAS</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa dei Compiti</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa dei Compiti</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="5"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 4E_56153/144601_2025/2026 </B> &#10;Tecnico dei trattamenti estetici - 4°annualità 2025/2026&#10;UF:EPILAZIONE &#10;DOC:VESCI MONICA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 1M_55245/142047_2025/2026 </B> &#10;Operatore ai servizi d'impresa - 1° annualità 2025/2026&#10;UF:ECONOMIA&#10;DOC:ABRUZZO ROSALIA</Font></ss:Data></Cell><Cell ss:StyleID="1"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>14:30  <B> FAMIAbilIta_I21I24000290007 2026 </B> &#10;FAMI AbilIta Laboratorio&#10;UF:LABORATORIO CONVERSAZIONE ESPERIENZIALE&#10;DOC:BETTARELLO TERESA MARIA<br/>DOMINIONI CHIARA [Codocenza]</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa dei Compiti</Font></ss:Data></Cell></Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">16:00</ss:Data></Cell><Cell ss:StyleID="1"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>15:30  <B> FAMI EXEMPLA </B> &#10;FAMI EXEMPLA&#10;UF:LINGUAGGI DIGITALI&#10;DOC:POZZI FEDERICO</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa compiti </Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa compiti </Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Stagisti 2G</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> MI_GOL_26_69918 </B> &#10;MI_GOL_26_69918_OPERATORE CAF&#10;UF:EXCEL&#10;DOC:PETRONIFORMA DI PETRONI GIANLUCA</Font></ss:Data></Cell><Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 1G_55249/142061_2025/2026 </B> &#10;Operatore Grafico Ipermediale - 1° annualità 2025/2026&#10;UF:A - P AZIENDE ED EVENTI&#10;DOC:FORNERIS GABRIELE</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> 1C_55228/142050_2025/2026 </B> &#10;Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026&#10;UF:A - P CUCINA&#10;DOC:SALETTA NICHOLAS</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa dei Compiti</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa dei Compiti</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa compiti </Font></ss:Data></Cell><Cell ss:StyleID="1"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>15:30  <B> FAMIAbilIta_I21I24000290007 2026 </B> &#10;FAMI AbilIta Laboratorio&#10;UF:LABORATORIO CONVERSAZIONE ESPERIENZIALE&#10;DOC:BETTARELLO TERESA MARIA<br/>DOMINIONI CHIARA [Codocenza]</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa dei Compiti</Font></ss:Data></Cell></Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">17:00</ss:Data></Cell><Cell ss:StyleID="1"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>16:30  <B> FAMI EXEMPLA </B> &#10;FAMI EXEMPLA&#10;UF:LINGUAGGI DIGITALI&#10;DOC:POZZI FEDERICO</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa compiti </Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa compiti </Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> MI_GOL_26_69918 </B> &#10;MI_GOL_26_69918_OPERATORE CAF&#10;UF:EXCEL&#10;DOC:PETRONIFORMA DI PETRONI GIANLUCA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> MI_GOL_26_68329 </B> &#10;MI_GOL_26_68329_PASTICCERIA&#10;UF:LABORATORIO PASTRY&#10;DOC:ARLATI CINZIA</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa dei Compiti</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa dei Compiti</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa compiti </Font></ss:Data></Cell><Cell ss:StyleID="1"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>16:30  <B> FAMIAbilIta_I21I24000290007 2026 </B> &#10;FAMI AbilIta Laboratorio&#10;UF:LABORATORIO CONVERSAZIONE ESPERIENZIALE&#10;DOC:BETTARELLO TERESA MARIA<br/>DOMINIONI CHIARA [Codocenza]</Font></ss:Data></Cell><Cell ss:StyleID="sc"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>Casa dei Compiti</Font></ss:Data></Cell></Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">18:00</ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> MI_GOL_26_69918 </B> &#10;MI_GOL_26_69918_OPERATORE CAF&#10;UF:EXCEL&#10;DOC:PETRONIFORMA DI PETRONI GIANLUCA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> MI_GOL_26_68329 </B> &#10;MI_GOL_26_68329_PASTICCERIA&#10;UF:LABORATORIO PASTRY&#10;DOC:ARLATI CINZIA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">19:00</ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> MI_GOL_26_68329 </B> &#10;MI_GOL_26_68329_PASTICCERIA&#10;UF:LABORATORIO PASTRY&#10;DOC:ARLATI CINZIA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">20:00</ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell ss:StyleID="2"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font>  <B> MI_GOL_26_68329 </B> &#10;MI_GOL_26_68329_PASTICCERIA&#10;UF:LABORATORIO PASTRY&#10;DOC:ARLATI CINZIA</Font></ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">21:00</ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">22:00</ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="116">
+<Cell ss:StyleID="s02"><ss:Data ss:Type="String">23:00</ss:Data></Cell><Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+<Cell  ss:StyleID="s04" />
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+<PageSetup>
+<Layout x:Orientation="Landscape" x:CenterHorizontal="1" />
+</PageSetup>
+<FitToPage />
+<Print>
+<ValidPrinterInfo/>
+<PaperSizeIndex>8</PaperSizeIndex>
+<HorizontalResolution>600</HorizontalResolution>
+<VerticalResolution>600</VerticalResolution>
+</Print>
+<Selected/>
+<Panes>
+<Pane>
+</Pane>
+</Panes>
+<ProtectObjects>False</ProtectObjects>
+<ProtectScenarios>False</ProtectScenarios>
+</WorksheetOptions>
+</ss:Worksheet>
+</ss:Workbook>
