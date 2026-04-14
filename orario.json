@@ -1,5 +1,5 @@
 {
-  "title": "Plan del 13-04-2026",
+  "title": "Plan del 14-04-2026",
   "rooms": {
     "2": "P1-01-Grafica",
     "3": "P1-02-Informatica",
@@ -16,661 +16,679 @@
     "14": "P2-07-Didattica frontale/Sala riunioni",
     "15": "P2-08-Didattica frontale",
     "16": "P2-09-Didattica frontale",
-    "17": "PARROCCHIA AULA 1",
-    "18": "PS-01-Laboratorio di cucina",
-    "19": "PS-02-Palestra",
+    "17": "PS-01-Laboratorio di cucina",
+    "18": "PS-02-Palestra",
+    "19": "PT-01-Bar Piazza dei Mestieri",
     "20": "PT-02-Polifunzionale",
     "21": "PT-03-Polifunzionale",
-    "22": "PT-09-Estetica",
-    "23": "PT-10-Didattica frontale",
-    "24": "PT-11-Sala colloqui",
+    "22": "PT-05-Sala colloqui",
+    "23": "PT-06-Acconciatura e Barberia",
+    "24": "PT-10-Didattica frontale",
     "25": "PT-12-Lab. Sala e Bar",
     "26": "PT-13-Multimediale"
   },
   "rawLessons": [
     {
       "startTime": "08:30",
-      "classCode": "3A",
-      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026",
-      "uf": "INFORMATICA DI BASE",
-      "teacher": "POZZI FEDERICO",
-      "room": "P1-02-Informatica",
-      "fileHour": "09:00"
-    },
-    {
-      "startTime": "08:30",
-      "classCode": "3C",
-      "course": "Operatore della ristorazione: Preparazione degli alimenti e allestimento piatti 3° annualità 2025/2026",
-      "uf": "TEORIA DI CUCINA",
-      "teacher": "SALETTA NICHOLAS",
-      "room": "P1-04-Didattica frontale",
-      "fileHour": "09:00"
-    },
-    {
-      "startTime": "08:30",
       "classCode": "1D",
       "course": "Operatore Informatico - 1° annualità 2025/2026",
-      "uf": "A - P  HARDWARE",
-      "teacher": "RAFFO ELISABETTA",
+      "uf": "INGLESE",
+      "teacher": "INTRA EMANUELA",
       "room": "P1-05-Didattica frontale",
       "fileHour": "09:00"
     },
     {
       "startTime": "08:30",
-      "classCode": "3D",
-      "course": "Operatore Informatico - 3° annualità 2025/2026",
-      "uf": "MATEMATICA",
-      "teacher": "CALOGERA TERESA",
-      "room": "P1-06-Didattica frontale",
-      "fileHour": "09:00"
-    },
-    {
-      "startTime": "08:30",
-      "classCode": "4G",
-      "course": "Tecnico grafico ipermediale - 4° annualità 2025/2026",
-      "uf": "CITTADINANZA",
+      "classCode": "4D",
+      "course": "Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026",
+      "uf": "ECONOMIA",
       "teacher": "PACCHETTI SERENA",
-      "room": "P1-10-Didattica frontale",
-      "fileHour": "09:00"
-    },
-    {
-      "startTime": "08:30",
-      "classCode": "3B",
-      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 3° annualità 2025/2026",
-      "uf": "ORIENTAMENTO",
-      "teacher": "URRACI ALESSIA",
-      "room": "P2-03-Didattica frontale",
-      "fileHour": "09:00"
-    },
-    {
-      "startTime": "08:30",
-      "classCode": "3G",
-      "course": "Operatore Grafico Ipermediale - 3° annualità 2025/2026",
-      "uf": "IRC",
-      "teacher": "LEVA ANGELO",
-      "room": "P2-07-Didattica frontale/Sala riunioni",
-      "fileHour": "09:00"
-    },
-    {
-      "startTime": "08:30",
-      "classCode": "1A",
-      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026",
-      "uf": "MATEMATICA",
-      "teacher": "PELLEGRINI LORENZO",
-      "room": "PARROCCHIA AULA 1",
+      "room": "P1-07-Didattica frontale",
       "fileHour": "09:00"
     },
     {
       "startTime": "08:30",
       "classCode": "1G",
       "course": "Operatore Grafico Ipermediale - 1° annualità 2025/2026",
-      "uf": "MOTORIA",
-      "teacher": "ACOSTA SUAREZ MAURICIO",
-      "room": "PS-02-Palestra",
-      "fileHour": "09:00"
-    },
-    {
-      "startTime": "08:30",
-      "classCode": "1M",
-      "course": "Operatore ai servizi d'impresa - 1° annualità 2025/2026",
-      "uf": "SCIENZE",
-      "teacher": "GOBBATO GIORGIA",
-      "room": "PT-03-Polifunzionale",
-      "fileHour": "09:00"
-    },
-    {
-      "startTime": "08:30",
-      "classCode": "1B",
-      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026",
-      "uf": "A - P CAFFETTERIA",
-      "teacher": "DIMMITO SARA",
-      "room": "PT-12-Lab. Sala e Bar",
-      "fileHour": "09:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "III",
-      "course": "III APP_1°LIV_OTT-LUG_2025/2026",
-      "uf": "ITALIANO",
-      "teacher": "FARDELLO MARTINA",
-      "room": "PT-13-Multimediale",
-      "fileHour": "09:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "3A",
-      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026",
-      "uf": "INFORMATICA DI BASE",
-      "teacher": "POZZI FEDERICO",
-      "room": "P1-02-Informatica",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "1D",
-      "course": "Operatore Informatico - 1° annualità 2025/2026",
-      "uf": "A - P  HARDWARE",
-      "teacher": "RAFFO ELISABETTA",
-      "room": "P1-05-Didattica frontale",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "3D",
-      "course": "Operatore Informatico - 3° annualità 2025/2026",
       "uf": "MATEMATICA",
       "teacher": "CALOGERA TERESA",
-      "room": "P1-06-Didattica frontale",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "4D",
-      "course": "Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026",
-      "uf": "COMUNICAZIONE",
-      "teacher": "BRESCIANI NAZARENO",
-      "room": "P1-07-Didattica frontale",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "1C",
-      "course": "Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026",
-      "uf": "A - P INCONTRO CON LE AZIENDE",
-      "teacher": "CORAINI ELENA",
       "room": "P1-08-Didattica frontale",
-      "fileHour": "10:00"
+      "fileHour": "09:00"
     },
     {
-      "startTime": "09:30",
+      "startTime": "08:30",
       "classCode": "4G",
       "course": "Tecnico grafico ipermediale - 4° annualità 2025/2026",
-      "uf": "SCIENZE",
-      "teacher": "GOBBATO GIORGIA",
-      "room": "P1-10-Didattica frontale",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_69720_SEGRETERIA AMMINISTRATIVA",
-      "uf": "Segreteria amministrativa",
-      "teacher": "SOLIANI ALDO",
-      "room": "P2-02-Informatica",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "1G",
-      "course": "Operatore Grafico Ipermediale - 1° annualità 2025/2026",
-      "uf": "GEO STORIA",
-      "teacher": "DEL VILLANO SILVIA",
-      "room": "P2-03-Didattica frontale",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "XXXX_IFTS_APP43",
-      "course": "IFTS_APP43_IDRELE 26",
-      "uf": "QUALITA' E PROCESSI",
-      "teacher": "CAIVANO GIUSEPPE",
-      "room": "P2-09-Didattica frontale",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "1A",
-      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026",
-      "uf": "MATEMATICA",
-      "teacher": "PELLEGRINI LORENZO",
-      "room": "PARROCCHIA AULA 1",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_69578_TECNICHE DI SALA BAR",
-      "uf": "Miscelazione cocktail",
-      "teacher": "FANARI GIAN MICHELE",
-      "room": "PS-01-Laboratorio di cucina",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "3G",
-      "course": "Operatore Grafico Ipermediale - 3° annualità 2025/2026",
-      "uf": "MOTORIA",
-      "teacher": "ACOSTA SUAREZ MAURICIO",
-      "room": "PS-02-Palestra",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_69918_OPERATORE CAF",
-      "uf": "CAF",
-      "teacher": "CARUSO CORRADO",
-      "room": "PT-02-Polifunzionale",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "1M",
-      "course": "Operatore ai servizi d'impresa - 1° annualità 2025/2026",
-      "uf": "SPAGNOLO",
-      "teacher": "FRANZONI CRISTINA",
-      "room": "PT-03-Polifunzionale",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "3B",
-      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 3° annualità 2025/2026",
-      "uf": "ITALIANO",
-      "teacher": "MELILLO MARINA IDA",
-      "room": "PT-10-Didattica frontale",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "09:30",
-      "classCode": "1B",
-      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026",
-      "uf": "A - P CAFFETTERIA",
-      "teacher": "DIMMITO SARA",
-      "room": "PT-12-Lab. Sala e Bar",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "III",
-      "course": "III APP_1°LIV_OTT-LUG_2025/2026",
-      "uf": "ITALIANO",
-      "teacher": "FARDELLO MARTINA",
-      "room": "PT-13-Multimediale",
-      "fileHour": "10:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "4G",
-      "course": "Tecnico grafico ipermediale - 4° annualità 2025/2026",
-      "uf": "GIOCHI IN SCATOLA",
-      "teacher": "POZZI FEDERICO",
-      "room": "P1-01-Grafica",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "1D",
-      "course": "Operatore Informatico - 1° annualità 2025/2026",
-      "uf": "A - P  HARDWARE",
-      "teacher": "RAFFO ELISABETTA",
-      "room": "P1-05-Didattica frontale",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "3D",
-      "course": "Operatore Informatico - 3° annualità 2025/2026",
-      "uf": "GEO STORIA",
-      "teacher": "DE ANGELIS ALESSIO",
-      "room": "P1-06-Didattica frontale",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "4D",
-      "course": "Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026",
-      "uf": "COMUNICAZIONE",
-      "teacher": "BRESCIANI NAZARENO",
-      "room": "P1-07-Didattica frontale",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "1C",
-      "course": "Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026",
-      "uf": "A - P INCONTRO CON LE AZIENDE",
-      "teacher": "CORAINI ELENA",
-      "room": "P1-08-Didattica frontale",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_69720_SEGRETERIA AMMINISTRATIVA",
-      "uf": "Segreteria amministrativa",
-      "teacher": "SOLIANI ALDO",
-      "room": "P2-02-Informatica",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "1G",
-      "course": "Operatore Grafico Ipermediale - 1° annualità 2025/2026",
-      "uf": "SCIENZE",
-      "teacher": "GOBBATO GIORGIA",
-      "room": "P2-03-Didattica frontale",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "3G",
-      "course": "Operatore Grafico Ipermediale - 3° annualità 2025/2026",
       "uf": "INGLESE",
       "teacher": "FRANZONI CRISTINA",
-      "room": "P2-07-Didattica frontale/Sala riunioni",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "3A",
-      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026",
-      "uf": "MATEMATICA",
-      "teacher": "PELLEGRINI LORENZO",
-      "room": "P2-08-Didattica frontale",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "XXXX_IFTS_APP43",
-      "course": "IFTS_APP43_IDRELE 26",
-      "uf": "QUALITA' E PROCESSI",
-      "teacher": "CAIVANO GIUSEPPE",
-      "room": "P2-09-Didattica frontale",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_69578_TECNICHE DI SALA BAR",
-      "uf": "Miscelazione cocktail",
-      "teacher": "FANARI GIAN MICHELE",
-      "room": "PS-01-Laboratorio di cucina",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_69918_OPERATORE CAF",
-      "uf": "CAF",
-      "teacher": "CARUSO CORRADO",
-      "room": "PT-02-Polifunzionale",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "1M",
-      "course": "Operatore ai servizi d'impresa - 1° annualità 2025/2026",
-      "uf": "A - P COMUNICAZIONE",
-      "teacher": "PESCI MARCO",
-      "room": "PT-03-Polifunzionale",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "3B",
-      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 3° annualità 2025/2026",
-      "uf": "MATEMATICA",
-      "teacher": "CALOGERA TERESA",
-      "room": "PT-10-Didattica frontale",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "10:30",
-      "classCode": "1B",
-      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026",
-      "uf": "A - P CAFFETTERIA",
-      "teacher": "DIMMITO SARA",
-      "room": "PT-12-Lab. Sala e Bar",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "III",
-      "course": "III APP_1°LIV_OTT-LUG_2025/2026",
-      "uf": "SETTORE DI APPARTENENZA",
-      "teacher": "FARDELLO MARTINA",
-      "room": "PT-13-Multimediale",
-      "fileHour": "11:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "4G",
-      "course": "Tecnico grafico ipermediale - 4° annualità 2025/2026",
-      "uf": "GIOCHI IN SCATOLA",
-      "teacher": "POZZI FEDERICO",
-      "room": "P1-01-Grafica",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "1D",
-      "course": "Operatore Informatico - 1° annualità 2025/2026",
-      "uf": "SCIENZE",
-      "teacher": "GOBBATO GIORGIA",
-      "room": "P1-05-Didattica frontale",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "3D",
-      "course": "Operatore Informatico - 3° annualità 2025/2026",
-      "uf": "LAB. HARDWARE",
-      "teacher": "RAFFO ELISABETTA",
-      "room": "P1-06-Didattica frontale",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "4D",
-      "course": "Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026",
-      "uf": "LAB. SOFTWARE",
-      "teacher": "LORENZONI ROBERTO VLAD",
-      "room": "P1-07-Didattica frontale",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "1C",
-      "course": "Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026",
-      "uf": "A - P INCONTRO CON LE AZIENDE",
-      "teacher": "CORAINI ELENA",
-      "room": "P1-08-Didattica frontale",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "1B",
-      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026",
-      "uf": "MATEMATICA",
-      "teacher": "CALOGERA TERESA",
       "room": "P1-10-Didattica frontale",
-      "fileHour": "12:00"
+      "fileHour": "09:00"
     },
     {
-      "startTime": "11:30",
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_69720_SEGRETERIA AMMINISTRATIVA",
-      "uf": "Segreteria amministrativa",
-      "teacher": "SOLIANI ALDO",
-      "room": "P2-02-Informatica",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "1G",
-      "course": "Operatore Grafico Ipermediale - 1° annualità 2025/2026",
-      "uf": "COMUNICAZIONE E SOCIAL MEDIA",
-      "teacher": "BRESCIANI NAZARENO",
-      "room": "P2-03-Didattica frontale",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "3G",
-      "course": "Operatore Grafico Ipermediale - 3° annualità 2025/2026",
-      "uf": "ITALIANO",
-      "teacher": "DEL VILLANO SILVIA",
-      "room": "P2-07-Didattica frontale/Sala riunioni",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "3A",
-      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026",
+      "startTime": "08:30",
+      "classCode": "1A",
+      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026",
       "uf": "ITALIANO",
       "teacher": "MARZOLA MATTIA",
-      "room": "P2-08-Didattica frontale",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "XXXX_IFTS_APP43",
-      "course": "IFTS_APP43_IDRELE 26",
-      "uf": "QUALITA' E PROCESSI",
-      "teacher": "CAIVANO GIUSEPPE",
-      "room": "P2-09-Didattica frontale",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_69578_TECNICHE DI SALA BAR",
-      "uf": "Miscelazione cocktail",
-      "teacher": "FANARI GIAN MICHELE",
-      "room": "PS-01-Laboratorio di cucina",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_69918_OPERATORE CAF",
-      "uf": "CAF",
-      "teacher": "CARUSO CORRADO",
-      "room": "PT-02-Polifunzionale",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "1M",
-      "course": "Operatore ai servizi d'impresa - 1° annualità 2025/2026",
-      "uf": "A - P COMUNICAZIONE",
-      "teacher": "PESCI MARCO",
-      "room": "PT-03-Polifunzionale",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "11:30",
-      "classCode": "3B",
-      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 3° annualità 2025/2026",
-      "uf": "GEO STORIA",
-      "teacher": "DE ANGELIS ALESSIO",
-      "room": "PT-10-Didattica frontale",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "III",
-      "course": "III APP_1°LIV_OTT-LUG_2025/2026",
-      "uf": "SETTORE DI APPARTENENZA",
-      "teacher": "FARDELLO MARTINA",
-      "room": "PT-13-Multimediale",
-      "fileHour": "12:00"
-    },
-    {
-      "startTime": "12:30",
-      "classCode": "3D",
-      "course": "Operatore Informatico - 3° annualità 2025/2026",
-      "uf": "LAB. HARDWARE",
-      "teacher": "RAFFO ELISABETTA",
-      "room": "P1-06-Didattica frontale",
-      "fileHour": "13:00"
-    },
-    {
-      "startTime": "12:30",
-      "classCode": "4D",
-      "course": "Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026",
-      "uf": "LAB. SOFTWARE",
-      "teacher": "LORENZONI ROBERTO VLAD",
-      "room": "P1-07-Didattica frontale",
-      "fileHour": "13:00"
-    },
-    {
-      "startTime": "12:30",
-      "classCode": "1C",
-      "course": "Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026",
-      "uf": "A - P INCONTRO CON LE AZIENDE",
-      "teacher": "CORAINI ELENA",
-      "room": "P1-08-Didattica frontale",
-      "fileHour": "13:00"
-    },
-    {
-      "startTime": "12:30",
-      "classCode": "4G",
-      "course": "Tecnico grafico ipermediale - 4° annualità 2025/2026",
-      "uf": "INGLESE",
-      "teacher": "FRANZONI CRISTINA",
-      "room": "P1-10-Didattica frontale",
-      "fileHour": "13:00"
-    },
-    {
-      "startTime": "12:30",
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_69720_SEGRETERIA AMMINISTRATIVA",
-      "uf": "Segreteria amministrativa",
-      "teacher": "SOLIANI ALDO",
-      "room": "P2-02-Informatica",
-      "fileHour": "13:00"
-    },
-    {
-      "startTime": "12:30",
-      "classCode": "1G",
-      "course": "Operatore Grafico Ipermediale - 1° annualità 2025/2026",
-      "uf": "COMUNICAZIONE E SOCIAL MEDIA",
-      "teacher": "BRESCIANI NAZARENO",
       "room": "P2-03-Didattica frontale",
-      "fileHour": "13:00"
+      "fileHour": "09:00"
     },
     {
-      "startTime": "12:30",
+      "startTime": "08:30",
       "classCode": "1B",
       "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026",
       "uf": "ITALIANO",
       "teacher": "MELILLO MARINA IDA",
       "room": "P2-06-Didattica frontale/Sala riunioni",
-      "fileHour": "13:00"
+      "fileHour": "09:00"
     },
     {
-      "startTime": "12:30",
+      "startTime": "08:30",
       "classCode": "3G",
       "course": "Operatore Grafico Ipermediale - 3° annualità 2025/2026",
-      "uf": "MATEMATICA",
-      "teacher": "CALOGERA TERESA",
+      "uf": "WEB",
+      "teacher": "POZZI FEDERICO",
       "room": "P2-07-Didattica frontale/Sala riunioni",
-      "fileHour": "13:00"
+      "fileHour": "09:00"
     },
     {
-      "startTime": "12:30",
+      "startTime": "08:30",
+      "classCode": "1C",
+      "course": "Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026",
+      "uf": "ALIMENTAZIONE",
+      "teacher": "GOBBATO GIORGIA",
+      "room": "P2-09-Didattica frontale",
+      "fileHour": "09:00"
+    },
+    {
+      "startTime": "08:30",
+      "classCode": "3D",
+      "course": "Operatore Informatico - 3° annualità 2025/2026",
+      "uf": "MOTORIA",
+      "teacher": "ACOSTA SUAREZ MAURICIO",
+      "room": "PS-02-Palestra",
+      "fileHour": "09:00"
+    },
+    {
+      "startTime": "08:30",
       "classCode": "3A",
       "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026",
+      "uf": "IRC",
+      "teacher": "GALLI GIULIA",
+      "room": "PT-02-Polifunzionale",
+      "fileHour": "09:00"
+    },
+    {
+      "startTime": "08:30",
+      "classCode": "1M",
+      "course": "Operatore ai servizi d'impresa - 1° annualità 2025/2026",
+      "uf": "ITALIANO",
+      "teacher": "DEL VILLANO SILVIA",
+      "room": "PT-03-Polifunzionale",
+      "fileHour": "09:00"
+    },
+    {
+      "startTime": "08:30",
+      "classCode": "4A/E",
+      "course": "Tecnico del benessere - 4°annualità 2025/2026",
+      "uf": "MATEMATICA",
+      "teacher": "MARTIGNANO FEDERICO",
+      "room": "PT-10-Didattica frontale",
+      "fileHour": "09:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "3E",
+      "course": "Operatore del benessere: erogazione dei servizi di trattamento estetico - 3° annualità 2025/2026",
+      "uf": "MOTORIA",
+      "teacher": "ACOSTA SUAREZ MAURICIO",
+      "room": "P1-04-Didattica frontale",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "1D",
+      "course": "Operatore Informatico - 1° annualità 2025/2026",
+      "uf": "ITALIANO",
+      "teacher": "DEL VILLANO SILVIA",
+      "room": "P1-05-Didattica frontale",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "3D",
+      "course": "Operatore Informatico - 3° annualità 2025/2026",
+      "uf": "INFORMATICA DI BASE",
+      "teacher": "PESCI MARCO",
+      "room": "P1-06-Didattica frontale",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "4D",
+      "course": "Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026",
+      "uf": "SCIENZE",
+      "teacher": "GOBBATO GIORGIA",
+      "room": "P1-07-Didattica frontale",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "1G",
+      "course": "Operatore Grafico Ipermediale - 1° annualità 2025/2026",
+      "uf": "INGLESE",
+      "teacher": "FRANZONI CRISTINA",
+      "room": "P1-08-Didattica frontale",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "4G",
+      "course": "Tecnico grafico ipermediale - 4° annualità 2025/2026",
+      "uf": "IRC",
+      "teacher": "LEVA ANGELO",
+      "room": "P1-10-Didattica frontale",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_69720_SEGRETERIA AMMINISTRATIVA",
+      "uf": "Segreteria amministrativa",
+      "teacher": "SOLIANI ALDO",
+      "room": "P2-02-Informatica",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "1A",
+      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026",
+      "uf": "GEO STORIA",
+      "teacher": "MARZOLA MATTIA",
+      "room": "P2-03-Didattica frontale",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "1B",
+      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026",
+      "uf": "MATEMATICA",
+      "teacher": "CALOGERA TERESA",
+      "room": "P2-06-Didattica frontale/Sala riunioni",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "3G",
+      "course": "Operatore Grafico Ipermediale - 3° annualità 2025/2026",
+      "uf": "WEB",
+      "teacher": "POZZI FEDERICO",
+      "room": "P2-07-Didattica frontale/Sala riunioni",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": null,
+      "classCode": "XXXX_IFTS_APP43",
+      "course": "IFTS_APP43_IDRELE 26",
+      "uf": "ORGANIZZAZIONE AZIENDALE",
+      "teacher": "CAIVANO GIUSEPPE",
+      "room": "P2-08-Didattica frontale",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "1C",
+      "course": "Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026",
+      "uf": "GEO STORIA",
+      "teacher": "MELILLO MARINA IDA",
+      "room": "P2-09-Didattica frontale",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_69918_OPERATORE CAF",
+      "uf": "CAF",
+      "teacher": "CARUSO CORRADO",
+      "room": "PT-02-Polifunzionale",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "1M",
+      "course": "Operatore ai servizi d'impresa - 1° annualità 2025/2026",
+      "uf": "A - P SEGRETERIA",
+      "teacher": "PACCHETTI SERENA",
+      "room": "PT-03-Polifunzionale",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "3A",
+      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026",
+      "uf": "LAB. ACCONCIATURA",
+      "teacher": "TERNOVETSKA NATALIYA",
+      "room": "PT-06-Acconciatura e Barberia",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "09:30",
+      "classCode": "4A/E",
+      "course": "Tecnico del benessere - 4°annualità 2025/2026",
+      "uf": "MATEMATICA",
+      "teacher": "MARTIGNANO FEDERICO",
+      "room": "PT-10-Didattica frontale",
+      "fileHour": "10:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "1E",
+      "course": "Operatore del benessere: erogazione dei servizi di trattamento estetico - 1° annualità 2025/2026",
+      "uf": "MATEMATICA",
+      "teacher": "ORLANDI VALERIA",
+      "room": "P1-04-Didattica frontale",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "1D",
+      "course": "Operatore Informatico - 1° annualità 2025/2026",
+      "uf": "ITALIANO",
+      "teacher": "DEL VILLANO SILVIA",
+      "room": "P1-05-Didattica frontale",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "3D",
+      "course": "Operatore Informatico - 3° annualità 2025/2026",
+      "uf": "LAB. SOFTWARE",
+      "teacher": "PESCI MARCO",
+      "room": "P1-06-Didattica frontale",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "4D",
+      "course": "Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026",
+      "uf": "MATEMATICA",
+      "teacher": "CALOGERA TERESA",
+      "room": "P1-07-Didattica frontale",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "1G",
+      "course": "Operatore Grafico Ipermediale - 1° annualità 2025/2026",
+      "uf": "INGLESE",
+      "teacher": "FRANZONI CRISTINA",
+      "room": "P1-08-Didattica frontale",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "4G",
+      "course": "Tecnico grafico ipermediale - 4° annualità 2025/2026",
+      "uf": "MATEMATICA",
+      "teacher": "MARTIGNANO FEDERICO",
+      "room": "P1-10-Didattica frontale",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_69720_SEGRETERIA AMMINISTRATIVA",
+      "uf": "Segreteria amministrativa",
+      "teacher": "SOLIANI ALDO",
+      "room": "P2-02-Informatica",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "1A",
+      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026",
+      "uf": "ORIENTAMENTO",
+      "teacher": "PICCOLI GIULIA",
+      "room": "P2-03-Didattica frontale",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "1B",
+      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026",
+      "uf": "ALIMENTAZIONE",
+      "teacher": "GOBBATO GIORGIA",
+      "room": "P2-06-Didattica frontale/Sala riunioni",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "3G",
+      "course": "Operatore Grafico Ipermediale - 3° annualità 2025/2026",
+      "uf": "WEB",
+      "teacher": "POZZI FEDERICO",
+      "room": "P2-07-Didattica frontale/Sala riunioni",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": null,
+      "classCode": "XXXX_IFTS_APP43",
+      "course": "IFTS_APP43_IDRELE 26",
+      "uf": "ORGANIZZAZIONE AZIENDALE",
+      "teacher": "CAIVANO GIUSEPPE",
+      "room": "P2-08-Didattica frontale",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "3E",
+      "course": "Operatore del benessere: erogazione dei servizi di trattamento estetico - 3° annualità 2025/2026",
       "uf": "ITALIANO",
       "teacher": "MARZOLA MATTIA",
+      "room": "P2-09-Didattica frontale",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "1C",
+      "course": "Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026",
+      "uf": "MOTORIA",
+      "teacher": "ACOSTA SUAREZ MAURICIO",
+      "room": "PS-02-Palestra",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_69918_OPERATORE CAF",
+      "uf": "CAF",
+      "teacher": "CARUSO CORRADO",
+      "room": "PT-02-Polifunzionale",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "1M",
+      "course": "Operatore ai servizi d'impresa - 1° annualità 2025/2026",
+      "uf": "A - P SEGRETERIA",
+      "teacher": "PACCHETTI SERENA",
+      "room": "PT-03-Polifunzionale",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "3A",
+      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026",
+      "uf": "LAB. ACCONCIATURA",
+      "teacher": "TERNOVETSKA NATALIYA",
+      "room": "PT-06-Acconciatura e Barberia",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "10:30",
+      "classCode": "4A/E",
+      "course": "Tecnico del benessere - 4°annualità 2025/2026",
+      "uf": "ACCOGLIENZA",
+      "teacher": "BOVOLENTA CHIARA",
+      "room": "PT-10-Didattica frontale",
+      "fileHour": "11:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "1G",
+      "course": "Operatore Grafico Ipermediale - 1° annualità 2025/2026",
+      "uf": "FOTO",
+      "teacher": "LANZANI FEDERICO",
+      "room": "P1-01-Grafica",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "3E",
+      "course": "Operatore del benessere: erogazione dei servizi di trattamento estetico - 3° annualità 2025/2026",
+      "uf": "MATEMATICA",
+      "teacher": "ORLANDI VALERIA",
+      "room": "P1-04-Didattica frontale",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "1D",
+      "course": "Operatore Informatico - 1° annualità 2025/2026",
+      "uf": "LAB. SOFTWARE OP",
+      "teacher": "PESCI MARCO",
+      "room": "P1-05-Didattica frontale",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "3D",
+      "course": "Operatore Informatico - 3° annualità 2025/2026",
+      "uf": "ITALIANO",
+      "teacher": "DEL VILLANO SILVIA",
+      "room": "P1-06-Didattica frontale",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "4D",
+      "course": "Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026",
+      "uf": "MATEMATICA",
+      "teacher": "CALOGERA TERESA",
+      "room": "P1-07-Didattica frontale",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "1E",
+      "course": "Operatore del benessere: erogazione dei servizi di trattamento estetico - 1° annualità 2025/2026",
+      "uf": "ITALIANO",
+      "teacher": "MARZOLA MATTIA",
+      "room": "P1-08-Didattica frontale",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "4G",
+      "course": "Tecnico grafico ipermediale - 4° annualità 2025/2026",
+      "uf": "SCIENZE",
+      "teacher": "GOBBATO GIORGIA",
+      "room": "P1-10-Didattica frontale",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_69720_SEGRETERIA AMMINISTRATIVA",
+      "uf": "Segreteria amministrativa",
+      "teacher": "SOLIANI ALDO",
+      "room": "P2-02-Informatica",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "1A",
+      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026",
+      "uf": "ORIENTAMENTO",
+      "teacher": "PICCOLI GIULIA",
+      "room": "P2-03-Didattica frontale",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "1B",
+      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026",
+      "uf": "GEO STORIA",
+      "teacher": "MELILLO MARINA IDA",
+      "room": "P2-06-Didattica frontale/Sala riunioni",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "3G",
+      "course": "Operatore Grafico Ipermediale - 3° annualità 2025/2026",
+      "uf": "STORIA DELL'ARTE",
+      "teacher": "PEREGO REBECCA",
+      "room": "P2-07-Didattica frontale/Sala riunioni",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": null,
+      "classCode": "XXXX_IFTS_APP43",
+      "course": "IFTS_APP43_IDRELE 26",
+      "uf": "ORGANIZZAZIONE AZIENDALE",
+      "teacher": "CAIVANO GIUSEPPE",
       "room": "P2-08-Didattica frontale",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "1C",
+      "course": "Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026",
+      "uf": "MATEMATICA",
+      "teacher": "MARTIGNANO FEDERICO",
+      "room": "P2-09-Didattica frontale",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_69918_OPERATORE CAF",
+      "uf": "CAF",
+      "teacher": "CARUSO CORRADO",
+      "room": "PT-02-Polifunzionale",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "1M",
+      "course": "Operatore ai servizi d'impresa - 1° annualità 2025/2026",
+      "uf": "ORIENTAMENTO",
+      "teacher": "RAVERA MIRIAM",
+      "room": "PT-03-Polifunzionale",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "3A",
+      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026",
+      "uf": "LAB. ACCONCIATURA",
+      "teacher": "TERNOVETSKA NATALIYA",
+      "room": "PT-06-Acconciatura e Barberia",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "11:30",
+      "classCode": "4A/E",
+      "course": "Tecnico del benessere - 4°annualità 2025/2026",
+      "uf": "ECONOMIA",
+      "teacher": "PACCHETTI SERENA",
+      "room": "PT-10-Didattica frontale",
+      "fileHour": "12:00"
+    },
+    {
+      "startTime": "12:30",
+      "classCode": "1G",
+      "course": "Operatore Grafico Ipermediale - 1° annualità 2025/2026",
+      "uf": "FOTO",
+      "teacher": "LANZANI FEDERICO",
+      "room": "P1-01-Grafica",
       "fileHour": "13:00"
     },
     {
       "startTime": "12:30",
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_69578_TECNICHE DI SALA BAR",
-      "uf": "Miscelazione cocktail",
-      "teacher": "FANARI GIAN MICHELE",
-      "room": "PS-01-Laboratorio di cucina",
+      "classCode": "3E",
+      "course": "Operatore del benessere: erogazione dei servizi di trattamento estetico - 3° annualità 2025/2026",
+      "uf": "MATEMATICA",
+      "teacher": "ORLANDI VALERIA",
+      "room": "P1-04-Didattica frontale",
       "fileHour": "13:00"
     },
     {
       "startTime": "12:30",
       "classCode": "1D",
       "course": "Operatore Informatico - 1° annualità 2025/2026",
+      "uf": "INFORMATICA DI BASE - AI",
+      "teacher": "PESCI MARCO",
+      "room": "P1-05-Didattica frontale",
+      "fileHour": "13:00"
+    },
+    {
+      "startTime": "12:30",
+      "classCode": "3D",
+      "course": "Operatore Informatico - 3° annualità 2025/2026",
+      "uf": "INGLESE",
+      "teacher": "INTRA EMANUELA",
+      "room": "P1-06-Didattica frontale",
+      "fileHour": "13:00"
+    },
+    {
+      "startTime": "12:30",
+      "classCode": "4D",
+      "course": "Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026",
+      "uf": "CODING E CMS",
+      "teacher": "POZZI FEDERICO",
+      "room": "P1-07-Didattica frontale",
+      "fileHour": "13:00"
+    },
+    {
+      "startTime": "12:30",
+      "classCode": "1E",
+      "course": "Operatore del benessere: erogazione dei servizi di trattamento estetico - 1° annualità 2025/2026",
+      "uf": "ITALIANO",
+      "teacher": "MARZOLA MATTIA",
+      "room": "P1-08-Didattica frontale",
+      "fileHour": "13:00"
+    },
+    {
+      "startTime": "12:30",
+      "classCode": "4G",
+      "course": "Tecnico grafico ipermediale - 4° annualità 2025/2026",
+      "uf": "ECONOMIA",
+      "teacher": "PACCHETTI SERENA",
+      "room": "P1-10-Didattica frontale",
+      "fileHour": "13:00"
+    },
+    {
+      "startTime": "12:30",
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_69720_SEGRETERIA AMMINISTRATIVA",
+      "uf": "Segreteria amministrativa",
+      "teacher": "SOLIANI ALDO",
+      "room": "P2-02-Informatica",
+      "fileHour": "13:00"
+    },
+    {
+      "startTime": "12:30",
+      "classCode": "1A",
+      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 1° annualità 2025/2026",
+      "uf": "CITTADINANZA",
+      "teacher": "ABRUZZO ROSALIA",
+      "room": "P2-03-Didattica frontale",
+      "fileHour": "13:00"
+    },
+    {
+      "startTime": "12:30",
+      "classCode": "3G",
+      "course": "Operatore Grafico Ipermediale - 3° annualità 2025/2026",
+      "uf": "ITALIANO",
+      "teacher": "DEL VILLANO SILVIA",
+      "room": "P2-07-Didattica frontale/Sala riunioni",
+      "fileHour": "13:00"
+    },
+    {
+      "startTime": "12:30",
+      "classCode": "1C",
+      "course": "Operatore della ristorazione: preparazione degli alimenti e allestimento piatti - 1° annualità 2025/2026",
+      "uf": "ITALIANO",
+      "teacher": "MELILLO MARINA IDA",
+      "room": "P2-09-Didattica frontale",
+      "fileHour": "13:00"
+    },
+    {
+      "startTime": "12:30",
+      "classCode": "1B",
+      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026",
       "uf": "MOTORIA",
       "teacher": "ACOSTA SUAREZ MAURICIO",
       "room": "PS-02-Palestra",
@@ -689,60 +707,60 @@
       "startTime": "12:30",
       "classCode": "1M",
       "course": "Operatore ai servizi d'impresa - 1° annualità 2025/2026",
-      "uf": "GEO STORIA",
-      "teacher": "DEL VILLANO SILVIA",
+      "uf": "MATEMATICA",
+      "teacher": "MARTIGNANO FEDERICO",
       "room": "PT-03-Polifunzionale",
       "fileHour": "13:00"
     },
     {
       "startTime": "12:30",
-      "classCode": "3B",
-      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 3° annualità 2025/2026",
-      "uf": "GEO STORIA",
-      "teacher": "DE ANGELIS ALESSIO",
+      "classCode": "3A",
+      "course": "Operatore del benessere: erogazione di trattamenti di acconciatura - 3° annualità 2025/2026",
+      "uf": "LAB. ACCONCIATURA",
+      "teacher": "TERNOVETSKA NATALIYA",
+      "room": "PT-06-Acconciatura e Barberia",
+      "fileHour": "13:00"
+    },
+    {
+      "startTime": "12:30",
+      "classCode": "4A/E",
+      "course": "Tecnico del benessere - 4°annualità 2025/2026",
+      "uf": "SCIENZE",
+      "teacher": "GOBBATO GIORGIA",
       "room": "PT-10-Didattica frontale",
       "fileHour": "13:00"
     },
     {
       "startTime": null,
-      "classCode": "3D",
-      "course": "Operatore Informatico - 3° annualità 2025/2026",
-      "uf": "AFFETTIVITA'",
-      "teacher": "RAVERA MIRIAM",
+      "classCode": "4A/E",
+      "course": "Tecnico del benessere - 4°annualità 2025/2026",
+      "uf": "INFORMATICA DI BASE - AI",
+      "teacher": "POZZI FEDERICO",
+      "room": "P1-02-Informatica",
+      "fileHour": "14:00"
+    },
+    {
+      "startTime": null,
+      "classCode": "1E",
+      "course": "Operatore del benessere: erogazione dei servizi di trattamento estetico - 1° annualità 2025/2026",
+      "uf": "CITTADINANZA",
+      "teacher": "ABRUZZO ROSALIA",
       "room": "P1-04-Didattica frontale",
       "fileHour": "14:00"
     },
     {
       "startTime": null,
-      "classCode": "1D",
-      "course": "Operatore Informatico - 1° annualità 2025/2026",
-      "uf": "LAB. SOFTWARE PY",
-      "teacher": "POZZI FEDERICO",
-      "room": "P1-05-Didattica frontale",
-      "fileHour": "14:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "4D",
-      "course": "Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026",
-      "uf": "CYBERSECURITY",
-      "teacher": "RAFFO ELISABETTA",
-      "room": "P1-08-Didattica frontale",
-      "fileHour": "14:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "4G",
-      "course": "Tecnico grafico ipermediale - 4° annualità 2025/2026",
-      "uf": "COMUNICAZIONE",
-      "teacher": "BRESCIANI NAZARENO",
-      "room": "P1-10-Didattica frontale",
+      "classCode": "3D",
+      "course": "Operatore Informatico - 3° annualità 2025/2026",
+      "uf": "AFFETTIVITA'",
+      "teacher": "RAVERA MIRIAM",
+      "room": "P1-06-Didattica frontale",
       "fileHour": "14:00"
     },
     {
       "startTime": null,
       "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_71833_ADDETTO ALLA LOGISTICA",
+      "course": "MI_GOL_26_69720_SEGRETERIA AMMINISTRATIVA",
       "uf": "Informatica",
       "teacher": "PETRONIFORMA DI PETRONI GIANLUCA",
       "room": "P2-02-Informatica",
@@ -750,84 +768,39 @@
     },
     {
       "startTime": null,
-      "classCode": "1B",
-      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026",
-      "uf": "LAB. SALA",
-      "teacher": "DIMMITO SARA",
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_69578_TECNICHE DI SALA BAR",
+      "uf": "Servizio Sala",
+      "teacher": "PASCOLI FEDERICO",
       "room": "P2-03-Didattica frontale",
       "fileHour": "14:00"
     },
     {
       "startTime": null,
-      "classCode": "III",
-      "course": "III APP_1°LIV_OTT-LUG_2025/2026",
+      "classCode": "XXXX_IFTS_APP43",
+      "course": "IFTS_APP43_IDRELE 26",
       "uf": "INGLESE",
       "teacher": "FRANZONI CRISTINA",
-      "room": "P2-07-Didattica frontale/Sala riunioni",
-      "fileHour": "14:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_68941_IA INTELLIGENZA ARTIFICIALE",
-      "uf": "IA Generativa",
-      "teacher": "FIOCCHI MARIA CRISTINA",
       "room": "P2-08-Didattica frontale",
       "fileHour": "14:00"
     },
     {
       "startTime": null,
-      "classCode": "XXXX_IFTS_APP43",
-      "course": "IFTS_APP43_IDRELE 26",
-      "uf": "QUALITA' E PROCESSI",
-      "teacher": "CAIVANO GIUSEPPE",
-      "room": "P2-09-Didattica frontale",
-      "fileHour": "14:00"
+      "classCode": "4A/E",
+      "course": "Tecnico del benessere - 4°annualità 2025/2026",
+      "uf": "INFORMATICA DI BASE - AI",
+      "teacher": "POZZI FEDERICO",
+      "room": "P1-02-Informatica",
+      "fileHour": "15:00"
     },
     {
       "startTime": null,
-      "classCode": "3C",
-      "course": "Operatore della ristorazione: Preparazione degli alimenti e allestimento piatti 3° annualità 2025/2026",
-      "uf": "TEORIA DI CUCINA",
-      "teacher": "SALETTA NICHOLAS",
-      "room": "PARROCCHIA AULA 1",
-      "fileHour": "14:00"
-    },
-    {
-      "startTime": "13:30",
-      "classCode": "MI_GOL_26",
-      "course": null,
-      "uf": "LABORATORIO PASTRY",
-      "teacher": "ARLATI CINZIA",
-      "room": "PS-01-Laboratorio di cucina",
-      "fileHour": "14:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "3E",
-      "course": "Operatore del benessere: erogazione dei servizi di trattamento estetico - 3° annualità 2025/2026",
-      "uf": "MANI - PIEDI",
-      "teacher": "TURRIN ELENA",
-      "room": "PT-09-Estetica",
-      "fileHour": "14:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "1M",
-      "course": "Operatore ai servizi d'impresa - 1° annualità 2025/2026",
-      "uf": "A - P MATEMATICA FINANZIARIA",
-      "teacher": "MARTIGNANO FEDERICO",
-      "room": "PT-10-Didattica frontale",
-      "fileHour": "14:00"
-    },
-    {
-      "startTime": "13:30",
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_69578_TECNICHE DI SALA BAR",
-      "uf": "Miscelazione cocktail",
-      "teacher": "FANARI GIAN MICHELE",
-      "room": "PT-12-Lab. Sala e Bar",
-      "fileHour": "14:00"
+      "classCode": "1E",
+      "course": "Operatore del benessere: erogazione dei servizi di trattamento estetico - 1° annualità 2025/2026",
+      "uf": "CITTADINANZA",
+      "teacher": "ABRUZZO ROSALIA",
+      "room": "P1-04-Didattica frontale",
+      "fileHour": "15:00"
     },
     {
       "startTime": null,
@@ -835,227 +808,128 @@
       "course": "Operatore Informatico - 3° annualità 2025/2026",
       "uf": "AFFETTIVITA'",
       "teacher": "RAVERA MIRIAM",
-      "room": "P1-04-Didattica frontale",
+      "room": "P1-06-Didattica frontale",
       "fileHour": "15:00"
     },
     {
-      "startTime": null,
-      "classCode": "1D",
-      "course": "Operatore Informatico - 1° annualità 2025/2026",
-      "uf": "LAB. SOFTWARE PY",
-      "teacher": "POZZI FEDERICO",
-      "room": "P1-05-Didattica frontale",
-      "fileHour": "15:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "4D",
-      "course": "Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026",
-      "uf": "CYBERSECURITY",
-      "teacher": "RAFFO ELISABETTA",
-      "room": "P1-08-Didattica frontale",
-      "fileHour": "15:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "4G",
-      "course": "Tecnico grafico ipermediale - 4° annualità 2025/2026",
-      "uf": "COMUNICAZIONE",
-      "teacher": "BRESCIANI NAZARENO",
-      "room": "P1-10-Didattica frontale",
+      "startTime": "14:30",
+      "classCode": "FAMIA",
+      "course": "FAMI AbilIta Laboratorio",
+      "uf": "ITALIANO L2",
+      "teacher": "DOMINIONI CHIARA",
+      "room": "P1-07-Didattica frontale",
       "fileHour": "15:00"
     },
     {
       "startTime": null,
       "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_71833_ADDETTO ALLA LOGISTICA",
+      "course": "MI_GOL_26_69720_SEGRETERIA AMMINISTRATIVA",
       "uf": "Informatica",
       "teacher": "PETRONIFORMA DI PETRONI GIANLUCA",
       "room": "P2-02-Informatica",
-      "fileHour": "15:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "III",
-      "course": "III APP_1°LIV_OTT-LUG_2025/2026",
-      "uf": "INGLESE",
-      "teacher": "FRANZONI CRISTINA",
-      "room": "P2-07-Didattica frontale/Sala riunioni",
-      "fileHour": "15:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_68941_IA INTELLIGENZA ARTIFICIALE",
-      "uf": "IA Generativa",
-      "teacher": "FIOCCHI MARIA CRISTINA",
-      "room": "P2-08-Didattica frontale",
-      "fileHour": "15:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "XXXX_IFTS_APP43",
-      "course": "IFTS_APP43_IDRELE 26",
-      "uf": "QUALITA' E PROCESSI",
-      "teacher": "CAIVANO GIUSEPPE",
-      "room": "P2-09-Didattica frontale",
-      "fileHour": "15:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "3C",
-      "course": "Operatore della ristorazione: Preparazione degli alimenti e allestimento piatti 3° annualità 2025/2026",
-      "uf": "TEORIA DI CUCINA",
-      "teacher": "SALETTA NICHOLAS",
-      "room": "PARROCCHIA AULA 1",
       "fileHour": "15:00"
     },
     {
       "startTime": "14:30",
       "classCode": "MI_GOL_26",
-      "course": null,
-      "uf": "LABORATORIO PASTRY",
-      "teacher": "ARLATI CINZIA",
-      "room": "PS-01-Laboratorio di cucina",
+      "course": "MI_GOL_26_71833_ADDETTO ALLA LOGISTICA",
+      "uf": "Informatica per il Lavoro",
+      "teacher": "BIANCHI ILARIA",
+      "room": "P2-07-Didattica frontale/Sala riunioni",
       "fileHour": "15:00"
     },
     {
       "startTime": null,
-      "classCode": "3E",
-      "course": "Operatore del benessere: erogazione dei servizi di trattamento estetico - 3° annualità 2025/2026",
-      "uf": "MANI - PIEDI",
-      "teacher": "TURRIN ELENA",
-      "room": "PT-09-Estetica",
+      "classCode": "XXXX_IFTS_APP43",
+      "course": "IFTS_APP43_IDRELE 26",
+      "uf": "INGLESE",
+      "teacher": "FRANZONI CRISTINA",
+      "room": "P2-08-Didattica frontale",
       "fileHour": "15:00"
     },
     {
       "startTime": null,
-      "classCode": "1M",
-      "course": "Operatore ai servizi d'impresa - 1° annualità 2025/2026",
-      "uf": "A - P MATEMATICA FINANZIARIA",
-      "teacher": "MARTIGNANO FEDERICO",
-      "room": "PT-10-Didattica frontale",
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_69578_TECNICHE DI SALA BAR",
+      "uf": "Servizio Sala",
+      "teacher": "PASCOLI FEDERICO",
+      "room": "PT-01-Bar Piazza dei Mestieri",
       "fileHour": "15:00"
     },
     {
-      "startTime": null,
-      "classCode": "1B",
-      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026",
-      "uf": "LAB. SALA",
-      "teacher": "DIMMITO SARA",
-      "room": "PT-12-Lab. Sala e Bar",
-      "fileHour": "15:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "4D",
-      "course": "Tecnico Informatico: Sistemi, Rete e Data Management - 4° annualità 2025/2026",
-      "uf": "CYBERSECURITY",
-      "teacher": "RAFFO ELISABETTA",
-      "room": "P1-08-Didattica frontale",
+      "startTime": "15:30",
+      "classCode": "FAMIA",
+      "course": "FAMI AbilIta Laboratorio",
+      "uf": "ITALIANO L2",
+      "teacher": "DOMINIONI CHIARA",
+      "room": "P1-07-Didattica frontale",
       "fileHour": "16:00"
     },
     {
       "startTime": null,
       "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_71833_ADDETTO ALLA LOGISTICA",
+      "course": "MI_GOL_26_69720_SEGRETERIA AMMINISTRATIVA",
       "uf": "Informatica",
       "teacher": "PETRONIFORMA DI PETRONI GIANLUCA",
       "room": "P2-02-Informatica",
       "fileHour": "16:00"
     },
     {
-      "startTime": null,
-      "classCode": "III",
-      "course": "III APP_1°LIV_OTT-LUG_2025/2026",
-      "uf": "INFORMATICA",
-      "teacher": "MARTIGNANO FEDERICO",
-      "room": "P2-07-Didattica frontale/Sala riunioni",
-      "fileHour": "16:00"
-    },
-    {
-      "startTime": null,
+      "startTime": "15:30",
       "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_68941_IA INTELLIGENZA ARTIFICIALE",
-      "uf": "IA Generativa",
-      "teacher": "FIOCCHI MARIA CRISTINA",
-      "room": "P2-08-Didattica frontale",
+      "course": "MI_GOL_26_71833_ADDETTO ALLA LOGISTICA",
+      "uf": "Informatica per il Lavoro",
+      "teacher": "BIANCHI ILARIA",
+      "room": "P2-07-Didattica frontale/Sala riunioni",
       "fileHour": "16:00"
     },
     {
       "startTime": null,
       "classCode": "XXXX_IFTS_APP43",
       "course": "IFTS_APP43_IDRELE 26",
-      "uf": "QUALITA' E PROCESSI",
-      "teacher": "CAIVANO GIUSEPPE",
-      "room": "P2-09-Didattica frontale",
-      "fileHour": "16:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "3C",
-      "course": "Operatore della ristorazione: Preparazione degli alimenti e allestimento piatti 3° annualità 2025/2026",
-      "uf": "TEORIA DI CUCINA",
-      "teacher": "SALETTA NICHOLAS",
-      "room": "PARROCCHIA AULA 1",
-      "fileHour": "16:00"
-    },
-    {
-      "startTime": "15:30",
-      "classCode": "MI_GOL_26",
-      "course": null,
-      "uf": "LABORATORIO PASTRY",
-      "teacher": "ARLATI CINZIA",
-      "room": "PS-01-Laboratorio di cucina",
-      "fileHour": "16:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "3E",
-      "course": "Operatore del benessere: erogazione dei servizi di trattamento estetico - 3° annualità 2025/2026",
-      "uf": "MANI - PIEDI",
-      "teacher": "TURRIN ELENA",
-      "room": "PT-09-Estetica",
-      "fileHour": "16:00"
-    },
-    {
-      "startTime": null,
-      "classCode": "1B",
-      "course": "Operatore della ristorazione: allestimento sala e somministrazione piatti e bevande - 1° annualità 2025/2026",
-      "uf": "LAB. SALA",
-      "teacher": "DIMMITO SARA",
-      "room": "PT-12-Lab. Sala e Bar",
+      "uf": "INGLESE",
+      "teacher": "FRANZONI CRISTINA",
+      "room": "P2-08-Didattica frontale",
       "fileHour": "16:00"
     },
     {
       "startTime": null,
       "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_71833_ADDETTO ALLA LOGISTICA",
+      "course": "MI_GOL_26_69578_TECNICHE DI SALA BAR",
+      "uf": "Servizio Sala",
+      "teacher": "PASCOLI FEDERICO",
+      "room": "PT-01-Bar Piazza dei Mestieri",
+      "fileHour": "16:00"
+    },
+    {
+      "startTime": "16:30",
+      "classCode": "FAMIA",
+      "course": "FAMI AbilIta Laboratorio",
+      "uf": "ITALIANO L2",
+      "teacher": "DOMINIONI CHIARA",
+      "room": "P1-07-Didattica frontale",
+      "fileHour": "17:00"
+    },
+    {
+      "startTime": null,
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_69720_SEGRETERIA AMMINISTRATIVA",
       "uf": "Informatica",
       "teacher": "PETRONIFORMA DI PETRONI GIANLUCA",
       "room": "P2-02-Informatica",
       "fileHour": "17:00"
     },
     {
-      "startTime": null,
-      "classCode": "III",
-      "course": "III APP_1°LIV_OTT-LUG_2025/2026",
-      "uf": "INFORMATICA",
-      "teacher": "MARTIGNANO FEDERICO",
+      "startTime": "16:30",
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_71833_ADDETTO ALLA LOGISTICA",
+      "uf": "Informatica per il Lavoro",
+      "teacher": "BIANCHI ILARIA",
       "room": "P2-07-Didattica frontale/Sala riunioni",
       "fileHour": "17:00"
     },
     {
       "startTime": null,
-      "classCode": "MI_GOL_26",
-      "course": "MI_GOL_26_68941_IA INTELLIGENZA ARTIFICIALE",
-      "uf": "IA Generativa",
-      "teacher": "FIOCCHI MARIA CRISTINA",
-      "room": "P2-08-Didattica frontale",
-      "fileHour": "17:00"
-    },
-    {
-      "startTime": "16:30",
       "classCode": "MI_GOL_26",
       "course": null,
       "uf": "LABORATORIO PASTRY",
@@ -1064,7 +938,25 @@
       "fileHour": "17:00"
     },
     {
+      "startTime": null,
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_69578_TECNICHE DI SALA BAR",
+      "uf": "Servizio Sala",
+      "teacher": "PASCOLI FEDERICO",
+      "room": "PT-01-Bar Piazza dei Mestieri",
+      "fileHour": "17:00"
+    },
+    {
       "startTime": "17:30",
+      "classCode": "MI_GOL_26",
+      "course": "MI_GOL_26_71833_ADDETTO ALLA LOGISTICA",
+      "uf": "Informatica per il Lavoro",
+      "teacher": "BIANCHI ILARIA",
+      "room": "P2-07-Didattica frontale/Sala riunioni",
+      "fileHour": "18:00"
+    },
+    {
+      "startTime": null,
       "classCode": "MI_GOL_26",
       "course": null,
       "uf": "LABORATORIO PASTRY",
@@ -1073,14 +965,23 @@
       "fileHour": "18:00"
     },
     {
-      "startTime": "18:30",
+      "startTime": null,
       "classCode": "MI_GOL_26",
       "course": null,
       "uf": "LABORATORIO PASTRY",
       "teacher": "ARLATI CINZIA",
       "room": "PS-01-Laboratorio di cucina",
       "fileHour": "19:00"
+    },
+    {
+      "startTime": null,
+      "classCode": "MI_GOL_26",
+      "course": null,
+      "uf": "LABORATORIO PASTRY",
+      "teacher": "ARLATI CINZIA",
+      "room": "PS-01-Laboratorio di cucina",
+      "fileHour": "20:00"
     }
   ],
-  "ts": 1776063335792
+  "ts": 1776150901622
 }
